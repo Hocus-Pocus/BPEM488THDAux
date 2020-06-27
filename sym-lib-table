@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name EP100-Breakout-rescue)(type Legacy)(uri "C:/Users/angel/Documents/KiCad Projects/EP100 Breakout/EP100 Breakout-rescue.lib")(options "")(descr ""))
+  (lib (name V10-Ign-Inj-Drivers-V2-rescue)(type Legacy)(uri "C:/Users/angel/Documents/KiCad Projects/V10 Ign-Inj Drivers V2/V10 Ign-Inj Drivers V2-rescue.lib")(options "")(descr ""))
+)
