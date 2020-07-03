@@ -316,7 +316,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD7F3)
-    (at 135.89 140.97 270)
+    (at 243.84 -30.48 270)
     (descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
     (tags "CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 8.0mm Tantal Electrolytic Capacitor")
     (path /5EFC200B)
@@ -348,7 +348,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD801)
-    (at 172.72 139.7 270)
+    (at 292.1 -25.4 270)
     (descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
     (tags "CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 8.0mm Tantal Electrolytic Capacitor")
     (path /5EF9171F)
@@ -380,7 +380,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD80F)
-    (at 156.21 143.51)
+    (at 264.16 -27.94)
     (descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
     (tags "CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 8.0mm Tantal Electrolytic Capacitor")
     (path /5EF90D0A)
@@ -412,7 +412,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD81D)
-    (at 193.04 142.24)
+    (at 312.42 -22.86)
     (descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
     (tags "CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 8.0mm Tantal Electrolytic Capacitor")
     (path /5EF92057)
@@ -444,7 +444,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD830)
-    (at 158.75 128.27 270)
+    (at 266.7 -43.18 270)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
     (path /5EFC19CA)
@@ -481,7 +481,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD843)
-    (at 195.58 127 270)
+    (at 314.96 -38.1 270)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
     (path /5EF93CB8)
@@ -518,7 +518,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD851)
-    (at 156.21 118.11)
+    (at 264.16 -53.34)
     (descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
     (tags "CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 8.0mm Tantal Electrolytic Capacitor")
     (path /5F44930F)
@@ -550,7 +550,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EFAD85F)
-    (at 193.04 116.84)
+    (at 312.42 -48.26)
     (descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
     (tags "CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 8.0mm Tantal Electrolytic Capacitor")
     (path /5EF95971)
@@ -794,7 +794,7 @@
   )
 
   (module Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE50CD5) (tstamp 5EFAD8FA)
-    (at 143.51 148.59 90)
+    (at 251.46 -22.86 90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5FB884CA)
@@ -847,7 +847,7 @@
   )
 
   (module Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE50CD5) (tstamp 5EFAD919)
-    (at 180.34 147.32 90)
+    (at 299.72 -17.78 90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5FB87DED)
@@ -1085,7 +1085,7 @@
   )
 
   (module Inductor_THT:L_Axial_L16.0mm_D6.3mm_P25.40mm_Horizontal_Fastron_VHBCC (layer F.Cu) (tedit 5AE59B05) (tstamp 5EFAD9D7)
-    (at 151.13 143.51 90)
+    (at 259.08 -27.94 90)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=25.4mm, , length*diameter=16*6.3mm^2, Fastron, VHBCC, http://www.fastrongroup.com/image-show/25/VHBCC.pdf?type=Complete-DataSheet&productType=series")
     (tags "Inductor Axial series Axial Horizontal pin pitch 25.4mm  length 16mm diameter 6.3mm Fastron VHBCC")
     (path /5FA627BA)
@@ -1126,7 +1126,7 @@
   )
 
   (module Inductor_THT:L_Axial_L16.0mm_D6.3mm_P25.40mm_Horizontal_Fastron_VHBCC (layer F.Cu) (tedit 5AE59B05) (tstamp 5EFAD9EE)
-    (at 187.96 142.24 90)
+    (at 307.34 -22.86 90)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=25.4mm, , length*diameter=16*6.3mm^2, Fastron, VHBCC, http://www.fastrongroup.com/image-show/25/VHBCC.pdf?type=Complete-DataSheet&productType=series")
     (tags "Inductor Axial series Axial Horizontal pin pitch 25.4mm  length 16mm diameter 6.3mm Fastron VHBCC")
     (path /5F7CDD2B)
@@ -4114,7 +4114,7 @@
   )
 
   (module Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown (layer F.Cu) (tedit 5AC8BA0D) (tstamp 5EFAE0AC)
-    (at 138.43 135.89)
+    (at 246.38 -35.56)
     (descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Horizontal RM 2.54mm")
     (path /5EF6FC11)
@@ -4165,7 +4165,7 @@
   )
 
   (module Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown (layer F.Cu) (tedit 5AC8BA0D) (tstamp 5EFAE0CC)
-    (at 175.26 134.62)
+    (at 294.64 -30.48)
     (descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Horizontal RM 2.54mm")
     (path /5EF72F4E)

@@ -16,21 +16,21 @@ $EndDescr
 $Comp
 L dk_Tactile-Switches:1825910-6 S1
 U 1 1 5EF60C65
-P 1150 6950
-F 0 "S1" H 1150 7297 60  0000 C CNN
-F 1 "1825910-6" H 1150 6750 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 1350 7150 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1350 7250 60  0001 L CNN
-F 4 "450-1650-ND" H 1350 7350 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 1350 7450 60  0001 L CNN "MPN"
-F 6 "Switches" H 1350 7550 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 1350 7650 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1350 7750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 1350 7850 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 1350 7950 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 1350 8050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1350 8150 60  0001 L CNN "Status"
-	1    1150 6950
+P 7650 5500
+F 0 "S1" H 7650 5847 60  0000 C CNN
+F 1 "1825910-6" H 7650 5300 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 7850 5700 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 7850 5800 60  0001 L CNN
+F 4 "450-1650-ND" H 7850 5900 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-6" H 7850 6000 60  0001 L CNN "MPN"
+F 6 "Switches" H 7850 6100 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 7850 6200 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 7850 6300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 7850 6400 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 7850 6500 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 7850 6600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 6700 60  0001 L CNN "Status"
+	1    7650 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -59,189 +59,153 @@ F 5 "497-1446-5-ND" H 3200 2200 50  0001 C CNN "Digikey"
 	1    3200 2200
 	1    0    0    -1  
 $EndComp
-Text Label 1600 4000 2    50   ~ 0
+Text Label 5600 2100 2    50   ~ 0
 PP5
-Text Label 1600 3900 2    50   ~ 0
+Text Label 5600 2200 2    50   ~ 0
 PP4
-Text Label 1600 3800 2    50   ~ 0
+Text Label 5600 2300 2    50   ~ 0
 PP3
-Text Label 1600 3600 2    50   ~ 0
+Text Label 5600 2500 2    50   ~ 0
 PP1
-Text Label 1600 3500 2    50   ~ 0
+Text Label 5600 2600 2    50   ~ 0
 PP0
-Text Label 950  4200 2    50   ~ 0
-PA2
-Text Label 950  4000 2    50   ~ 0
+Text Label 5600 3500 2    50   ~ 0
+PA0
+Text Label 6250 3100 2    50   ~ 0
 PB4
-Text Label 950  3700 2    50   ~ 0
+Text Label 6250 2800 2    50   ~ 0
 PB1
-Text Label 950  3600 2    50   ~ 0
+Text Label 6250 2700 2    50   ~ 0
 PB0
-Text Label 950  3800 2    50   ~ 0
+Text Label 6250 2900 2    50   ~ 0
 PB2
-Text Label 950  3900 2    50   ~ 0
+Text Label 6250 3000 2    50   ~ 0
 PB3
-Text Label 800  4700 0    50   ~ 0
+Text Label 6100 2400 0    50   ~ 0
 PT7
-Text Label 800  4500 0    50   ~ 0
+Text Label 6100 2200 0    50   ~ 0
 PT5
-Text Label 800  4600 0    50   ~ 0
+Text Label 6100 2300 0    50   ~ 0
 PT6
-Text Label 800  4400 0    50   ~ 0
+Text Label 6100 2100 0    50   ~ 0
 PT4
-Text Label 800  4300 0    50   ~ 0
+Text Label 6100 2000 0    50   ~ 0
 PT3
-Text Label 1450 4700 0    50   ~ 0
+Text Label 6100 3400 0    50   ~ 0
 RESET
 Wire Wire Line
-	1450 3600 1650 3600
+	6100 2400 6300 2400
 Wire Wire Line
-	1450 3700 1650 3700
+	6100 2500 6300 2500
 Wire Wire Line
-	1450 3800 1650 3800
+	6100 2600 6300 2600
 Wire Wire Line
-	1450 3900 1650 3900
+	6100 2700 6300 2700
 Wire Wire Line
-	1450 4700 1650 4700
-Wire Wire Line
-	950  4700 750  4700
-Wire Wire Line
-	950  4600 750  4600
-Wire Wire Line
-	950  4500 750  4500
-Wire Wire Line
-	950  4400 750  4400
-Wire Wire Line
-	950  4300 750  4300
-Wire Wire Line
-	950  4800 750  4800
-Wire Wire Line
-	1450 4800 1650 4800
+	6100 3600 6300 3600
 $Comp
 L power:+8V #PWR07
 U 1 1 5EF75A14
-P 1650 4500
+P 5500 3100
 AR Path="/5EF75A14" Ref="#PWR07"  Part="1" 
 AR Path="/5EF2B07F/5EF75A14" Ref="#PWR?"  Part="1" 
-F 0 "#PWR07" H 1650 4350 50  0001 C CNN
-F 1 "+8V" V 1665 4628 50  0000 L CNN
-F 2 "" H 1650 4500 50  0001 C CNN
-F 3 "" H 1650 4500 50  0001 C CNN
-	1    1650 4500
-	0    1    1    0   
+F 0 "#PWR07" H 5500 2950 50  0001 C CNN
+F 1 "+8V" V 5515 3228 50  0000 L CNN
+F 2 "" H 5500 3100 50  0001 C CNN
+F 3 "" H 5500 3100 50  0001 C CNN
+	1    5500 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5EF75A1A
-P 750 4800
+P 5400 3600
 AR Path="/5EF75A1A" Ref="#PWR02"  Part="1" 
 AR Path="/5EF2B07F/5EF75A1A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR02" H 750 4550 50  0001 C CNN
-F 1 "GND" H 755 4627 50  0000 C CNN
-F 2 "" H 750 4800 50  0001 C CNN
-F 3 "" H 750 4800 50  0001 C CNN
-	1    750  4800
+F 0 "#PWR02" H 5400 3350 50  0001 C CNN
+F 1 "GND" H 5405 3427 50  0000 C CNN
+F 2 "" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5EF75A20
-P 750 3100
+P 5400 1900
 AR Path="/5EF75A20" Ref="#PWR01"  Part="1" 
 AR Path="/5EF2B07F/5EF75A20" Ref="#PWR?"  Part="1" 
-F 0 "#PWR01" H 750 2850 50  0001 C CNN
-F 1 "GND" H 755 2927 50  0000 C CNN
-F 2 "" H 750 3100 50  0001 C CNN
-F 3 "" H 750 3100 50  0001 C CNN
-	1    750  3100
+F 0 "#PWR01" H 5400 1650 50  0001 C CNN
+F 1 "GND" H 5405 1727 50  0000 C CNN
+F 2 "" H 5400 1900 50  0001 C CNN
+F 3 "" H 5400 1900 50  0001 C CNN
+	1    5400 1900
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5EF75A26
-P 1650 3100
+P 6300 1900
 AR Path="/5EF75A26" Ref="#PWR05"  Part="1" 
 AR Path="/5EF2B07F/5EF75A26" Ref="#PWR?"  Part="1" 
-F 0 "#PWR05" H 1650 2850 50  0001 C CNN
-F 1 "GND" H 1655 2927 50  0000 C CNN
-F 2 "" H 1650 3100 50  0001 C CNN
-F 3 "" H 1650 3100 50  0001 C CNN
-	1    1650 3100
+F 0 "#PWR05" H 6300 1650 50  0001 C CNN
+F 1 "GND" H 6305 1727 50  0000 C CNN
+F 2 "" H 6300 1900 50  0001 C CNN
+F 3 "" H 6300 1900 50  0001 C CNN
+	1    6300 1900
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5EF75A2C
-P 1650 4800
+P 6300 3600
 AR Path="/5EF75A2C" Ref="#PWR09"  Part="1" 
 AR Path="/5EF2B07F/5EF75A2C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR09" H 1650 4550 50  0001 C CNN
-F 1 "GND" H 1655 4627 50  0000 C CNN
-F 2 "" H 1650 4800 50  0001 C CNN
-F 3 "" H 1650 4800 50  0001 C CNN
-	1    1650 4800
+F 0 "#PWR09" H 6300 3350 50  0001 C CNN
+F 1 "GND" H 6305 3427 50  0000 C CNN
+F 2 "" H 6300 3600 50  0001 C CNN
+F 3 "" H 6300 3600 50  0001 C CNN
+	1    6300 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR08
 U 1 1 5EF75A47
-P 1650 4600
+P 5500 3200
 AR Path="/5EF75A47" Ref="#PWR08"  Part="1" 
 AR Path="/5EF2B07F/5EF75A47" Ref="#PWR?"  Part="1" 
-F 0 "#PWR08" H 1650 4450 50  0001 C CNN
-F 1 "VDD" V 1650 4750 50  0000 L CNN
-F 2 "" H 1650 4600 50  0001 C CNN
-F 3 "" H 1650 4600 50  0001 C CNN
-	1    1650 4600
-	0    1    1    0   
+F 0 "#PWR08" H 5500 3050 50  0001 C CNN
+F 1 "VDD" V 5500 3350 50  0000 L CNN
+F 2 "" H 5500 3200 50  0001 C CNN
+F 3 "" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	950  3600 750  3600
+	6100 2300 6300 2300
 Wire Wire Line
-	950  3700 750  3700
+	6100 2200 6300 2200
 Wire Wire Line
-	950  3800 750  3800
-Wire Wire Line
-	950  3900 750  3900
-Wire Wire Line
-	950  4000 750  4000
-Wire Wire Line
-	950  4200 750  4200
-Wire Wire Line
-	950  3100 750  3100
-Wire Wire Line
-	950  3200 750  3200
-Wire Wire Line
-	950  3300 750  3300
-Wire Wire Line
-	950  3400 750  3400
-Wire Wire Line
-	950  3500 750  3500
-Wire Wire Line
-	1450 3500 1650 3500
-Wire Wire Line
-	1450 3400 1650 3400
-Wire Wire Line
-	1450 3300 1650 3300
-Text Label 950  3200 2    50   ~ 0
+	6100 2100 6300 2100
+Text Label 5600 3000 2    50   ~ 0
 PK0
-Text Label 950  3300 2    50   ~ 0
+Text Label 5600 2900 2    50   ~ 0
 PK1
-Text Label 950  3400 2    50   ~ 0
+Text Label 5600 2800 2    50   ~ 0
 PK2
-Text Label 950  3500 2    50   ~ 0
+Text Label 5600 2700 2    50   ~ 0
 PK3
-Text Label 1450 3300 0    50   ~ 0
+Text Label 6100 2500 0    50   ~ 0
 PK5
-Text Label 1450 3200 0    50   ~ 0
+Text Label 6100 2600 0    50   ~ 0
 PK4
-Text Label 1450 3400 0    50   ~ 0
+Text Label 5450 2000 0    50   ~ 0
 PK7
 Wire Wire Line
-	1450 3200 1650 3200
+	6100 2000 6300 2000
 Wire Wire Line
-	1450 4000 1650 4000
-Text Label 1600 3700 2    50   ~ 0
+	6100 2800 6300 2800
+Text Label 5600 2400 2    50   ~ 0
 PP2
 $Comp
 L Device:C C6
@@ -400,64 +364,64 @@ $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q13
 U 1 1 5F040814
-P 6600 900
-F 0 "Q13" H 6788 953 60  0000 L CNN
-F 1 "ZTX450" H 6788 847 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 6800 1100 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 1200 60  0001 L CNN
-F 4 "ZTX450-ND" H 6800 1300 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 6800 1400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6800 1500 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 6800 1600 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 1700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 6800 1800 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 6800 1900 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 6800 2000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6800 2100 60  0001 L CNN "Status"
-	1    6600 900 
+P 7650 950
+F 0 "Q13" H 7838 1003 60  0000 L CNN
+F 1 "ZTX450" H 7838 897 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 7850 1150 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 1250 60  0001 L CNN
+F 4 "ZTX450-ND" H 7850 1350 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 7850 1450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7850 1550 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7850 1650 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 1750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7850 1850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 7850 1950 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 7850 2050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 2150 60  0001 L CNN "Status"
+	1    7650 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR040
 U 1 1 5F041406
-P 5950 950
-F 0 "#PWR040" H 5950 700 50  0001 C CNN
-F 1 "GND" H 5955 777 50  0000 C CNN
-F 2 "" H 5950 950 50  0001 C CNN
-F 3 "" H 5950 950 50  0001 C CNN
-	1    5950 950 
+P 7000 1000
+F 0 "#PWR040" H 7000 750 50  0001 C CNN
+F 1 "GND" H 7005 827 50  0000 C CNN
+F 2 "" H 7000 1000 50  0001 C CNN
+F 3 "" H 7000 1000 50  0001 C CNN
+	1    7000 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR048
 U 1 1 5F04AC78
-P 6700 1150
-F 0 "#PWR048" H 6700 900 50  0001 C CNN
-F 1 "GND" H 6705 977 50  0000 C CNN
-F 2 "" H 6700 1150 50  0001 C CNN
-F 3 "" H 6700 1150 50  0001 C CNN
-	1    6700 1150
+P 7750 1200
+F 0 "#PWR048" H 7750 950 50  0001 C CNN
+F 1 "GND" H 7755 1027 50  0000 C CNN
+F 2 "" H 7750 1200 50  0001 C CNN
+F 3 "" H 7750 1200 50  0001 C CNN
+	1    7750 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 800  6350 800 
+	7350 850  7400 850 
 Wire Wire Line
-	6350 800  6350 900 
+	7400 850  7400 950 
 Wire Wire Line
-	6350 900  6400 900 
+	7400 950  7450 950 
 Wire Wire Line
-	6350 900  6300 900 
-Connection ~ 6350 900 
+	7400 950  7350 950 
+Connection ~ 7400 950 
 Wire Wire Line
-	6000 900  5950 900 
+	7050 950  7000 950 
 Wire Wire Line
-	5950 900  5950 950 
+	7000 950  7000 1000
 Wire Wire Line
-	6700 1100 6700 1150
+	7750 1150 7750 1200
 Wire Wire Line
-	6700 700  7100 700 
+	7750 750  8150 750 
 Wire Wire Line
-	5650 800  6000 800 
+	6700 850  7050 850 
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 5F06F9E1
@@ -505,13 +469,13 @@ Connection ~ 2650 900
 Wire Wire Line
 	2650 900  2650 1100
 Wire Wire Line
-	1450 3100 1650 3100
+	6100 1900 6300 1900
 Wire Wire Line
-	1450 4400 1650 4400
+	6100 3200 6300 3200
 Wire Wire Line
-	1450 4500 1650 4500
+	6100 3300 6300 3300
 Wire Wire Line
-	1450 4600 1650 4600
+	6100 3400 6300 3400
 Wire Wire Line
 	1450 1350 1500 1350
 Wire Wire Line
@@ -587,742 +551,677 @@ Wire Wire Line
 	2450 1850 2450 1450
 Connection ~ 1950 1850
 Wire Wire Line
-	1350 6850 1350 7050
+	7850 5400 7850 5600
 Wire Wire Line
-	950  6850 950  7050
+	7450 5400 7450 5600
 $Comp
 L power:GND #PWR03
 U 1 1 5F120F24
-P 1500 6900
-F 0 "#PWR03" H 1500 6650 50  0001 C CNN
-F 1 "GND" H 1505 6727 50  0000 C CNN
-F 2 "" H 1500 6900 50  0001 C CNN
-F 3 "" H 1500 6900 50  0001 C CNN
-	1    1500 6900
+P 8000 5450
+F 0 "#PWR03" H 8000 5200 50  0001 C CNN
+F 1 "GND" H 8005 5277 50  0000 C CNN
+F 2 "" H 8000 5450 50  0001 C CNN
+F 3 "" H 8000 5450 50  0001 C CNN
+	1    8000 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 6850 1500 6850
+	7850 5400 8000 5400
 Wire Wire Line
-	1500 6850 1500 6900
-Connection ~ 1350 6850
+	8000 5400 8000 5450
+Connection ~ 7850 5400
 Wire Wire Line
-	950  6850 650  6850
-Connection ~ 950  6850
-Text Notes 950  6750 0    50   ~ 0
+	7450 5400 7150 5400
+Connection ~ 7450 5400
+Text Notes 7450 5300 0    50   ~ 0
 Load EEEM\n
-Text Label 650  6850 0    50   ~ 0
-PA2
+Text Label 7150 5400 0    50   ~ 0
+PA0
 $Comp
 L dk_Tactile-Switches:1825910-6 S2
 U 1 1 5F135AD1
-P 1150 7600
-F 0 "S2" H 1150 7947 60  0000 C CNN
-F 1 "1825910-6" H 1150 7400 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 1350 7800 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1350 7900 60  0001 L CNN
-F 4 "450-1650-ND" H 1350 8000 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 1350 8100 60  0001 L CNN "MPN"
-F 6 "Switches" H 1350 8200 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 1350 8300 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1350 8400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 1350 8500 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 1350 8600 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 1350 8700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1350 8800 60  0001 L CNN "Status"
-	1    1150 7600
+P 7650 6150
+F 0 "S2" H 7650 6497 60  0000 C CNN
+F 1 "1825910-6" H 7650 5950 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 7850 6350 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 7850 6450 60  0001 L CNN
+F 4 "450-1650-ND" H 7850 6550 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-6" H 7850 6650 60  0001 L CNN "MPN"
+F 6 "Switches" H 7850 6750 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 7850 6850 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 7850 6950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 7850 7050 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 7850 7150 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 7850 7250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 7350 60  0001 L CNN "Status"
+	1    7650 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 7500 1350 7700
+	7850 6050 7850 6250
 Wire Wire Line
-	950  7500 950  7700
+	7450 6050 7450 6250
 $Comp
 L power:GND #PWR04
 U 1 1 5F135AD9
-P 1500 7550
-F 0 "#PWR04" H 1500 7300 50  0001 C CNN
-F 1 "GND" H 1505 7377 50  0000 C CNN
-F 2 "" H 1500 7550 50  0001 C CNN
-F 3 "" H 1500 7550 50  0001 C CNN
-	1    1500 7550
+P 8000 6100
+F 0 "#PWR04" H 8000 5850 50  0001 C CNN
+F 1 "GND" H 8005 5927 50  0000 C CNN
+F 2 "" H 8000 6100 50  0001 C CNN
+F 3 "" H 8000 6100 50  0001 C CNN
+	1    8000 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 7500 1500 7500
+	7850 6050 8000 6050
 Wire Wire Line
-	1500 7500 1500 7550
-Connection ~ 1350 7500
+	8000 6050 8000 6100
+Connection ~ 7850 6050
 Wire Wire Line
-	950  7500 650  7500
-Connection ~ 950  7500
-Text Notes 1050 7400 0    50   ~ 0
+	7450 6050 7150 6050
+Connection ~ 7450 6050
+Text Notes 7550 5950 0    50   ~ 0
 Reset\n
-Text Label 650  7500 0    50   ~ 0
+Text Label 7150 6050 0    50   ~ 0
 RESET
-Text Label 5650 800  0    50   ~ 0
+Text Label 6700 850  0    50   ~ 0
 PT3
-Text Label 7100 700  2    50   ~ 0
+Text Label 8150 750  2    50   ~ 0
 Ign1
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q14
 U 1 1 5F14E6E0
-P 6600 1650
-F 0 "Q14" H 6788 1703 60  0000 L CNN
-F 1 "ZTX450" H 6788 1597 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 6800 1850 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 1950 60  0001 L CNN
-F 4 "ZTX450-ND" H 6800 2050 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 6800 2150 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6800 2250 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 6800 2350 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 2450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 6800 2550 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 6800 2650 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 6800 2750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6800 2850 60  0001 L CNN "Status"
-	1    6600 1650
+P 7650 1700
+F 0 "Q14" H 7838 1753 60  0000 L CNN
+F 1 "ZTX450" H 7838 1647 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 7850 1900 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 2000 60  0001 L CNN
+F 4 "ZTX450-ND" H 7850 2100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 7850 2200 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7850 2300 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7850 2400 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 2500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7850 2600 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 7850 2700 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 7850 2800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 2900 60  0001 L CNN "Status"
+	1    7650 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR041
 U 1 1 5F14E6E6
-P 5950 1700
-F 0 "#PWR041" H 5950 1450 50  0001 C CNN
-F 1 "GND" H 5955 1527 50  0000 C CNN
-F 2 "" H 5950 1700 50  0001 C CNN
-F 3 "" H 5950 1700 50  0001 C CNN
-	1    5950 1700
+P 7000 1750
+F 0 "#PWR041" H 7000 1500 50  0001 C CNN
+F 1 "GND" H 7005 1577 50  0000 C CNN
+F 2 "" H 7000 1750 50  0001 C CNN
+F 3 "" H 7000 1750 50  0001 C CNN
+	1    7000 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR049
 U 1 1 5F14E6F8
-P 6700 1900
-F 0 "#PWR049" H 6700 1650 50  0001 C CNN
-F 1 "GND" H 6705 1727 50  0000 C CNN
-F 2 "" H 6700 1900 50  0001 C CNN
-F 3 "" H 6700 1900 50  0001 C CNN
-	1    6700 1900
+P 7750 1950
+F 0 "#PWR049" H 7750 1700 50  0001 C CNN
+F 1 "GND" H 7755 1777 50  0000 C CNN
+F 2 "" H 7750 1950 50  0001 C CNN
+F 3 "" H 7750 1950 50  0001 C CNN
+	1    7750 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 1550 6350 1550
+	7350 1600 7400 1600
 Wire Wire Line
-	6350 1550 6350 1650
+	7400 1600 7400 1700
 Wire Wire Line
-	6350 1650 6400 1650
+	7400 1700 7450 1700
 Wire Wire Line
-	6350 1650 6300 1650
-Connection ~ 6350 1650
+	7400 1700 7350 1700
+Connection ~ 7400 1700
 Wire Wire Line
-	6000 1650 5950 1650
+	7050 1700 7000 1700
 Wire Wire Line
-	5950 1650 5950 1700
+	7000 1700 7000 1750
 Wire Wire Line
-	6700 1850 6700 1900
+	7750 1900 7750 1950
 Wire Wire Line
-	6700 1450 7100 1450
+	7750 1500 8150 1500
 Wire Wire Line
-	5650 1550 6000 1550
-Text Label 5650 1550 0    50   ~ 0
+	6700 1600 7050 1600
+Text Label 6700 1600 0    50   ~ 0
 PT4
-Text Label 7100 1450 2    50   ~ 0
+Text Label 8150 1500 2    50   ~ 0
 Ign2
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q15
 U 1 1 5F157C7C
-P 6600 2400
-F 0 "Q15" H 6788 2453 60  0000 L CNN
-F 1 "ZTX450" H 6788 2347 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 6800 2600 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 2700 60  0001 L CNN
-F 4 "ZTX450-ND" H 6800 2800 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 6800 2900 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6800 3000 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 6800 3100 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 3200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 6800 3300 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 6800 3400 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 6800 3500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6800 3600 60  0001 L CNN "Status"
-	1    6600 2400
+P 7650 2450
+F 0 "Q15" H 7838 2503 60  0000 L CNN
+F 1 "ZTX450" H 7838 2397 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 7850 2650 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 2750 60  0001 L CNN
+F 4 "ZTX450-ND" H 7850 2850 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 7850 2950 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7850 3050 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7850 3150 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 3250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7850 3350 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 7850 3450 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 7850 3550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 3650 60  0001 L CNN "Status"
+	1    7650 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR042
 U 1 1 5F157C82
-P 5950 2450
-F 0 "#PWR042" H 5950 2200 50  0001 C CNN
-F 1 "GND" H 5955 2277 50  0000 C CNN
-F 2 "" H 5950 2450 50  0001 C CNN
-F 3 "" H 5950 2450 50  0001 C CNN
-	1    5950 2450
+P 7000 2500
+F 0 "#PWR042" H 7000 2250 50  0001 C CNN
+F 1 "GND" H 7005 2327 50  0000 C CNN
+F 2 "" H 7000 2500 50  0001 C CNN
+F 3 "" H 7000 2500 50  0001 C CNN
+	1    7000 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR050
 U 1 1 5F157C94
-P 6700 2650
-F 0 "#PWR050" H 6700 2400 50  0001 C CNN
-F 1 "GND" H 6705 2477 50  0000 C CNN
-F 2 "" H 6700 2650 50  0001 C CNN
-F 3 "" H 6700 2650 50  0001 C CNN
-	1    6700 2650
+P 7750 2700
+F 0 "#PWR050" H 7750 2450 50  0001 C CNN
+F 1 "GND" H 7755 2527 50  0000 C CNN
+F 2 "" H 7750 2700 50  0001 C CNN
+F 3 "" H 7750 2700 50  0001 C CNN
+	1    7750 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 2300 6350 2300
+	7350 2350 7400 2350
 Wire Wire Line
-	6350 2300 6350 2400
+	7400 2350 7400 2450
 Wire Wire Line
-	6350 2400 6400 2400
+	7400 2450 7450 2450
 Wire Wire Line
-	6350 2400 6300 2400
-Connection ~ 6350 2400
+	7400 2450 7350 2450
+Connection ~ 7400 2450
 Wire Wire Line
-	6000 2400 5950 2400
+	7050 2450 7000 2450
 Wire Wire Line
-	5950 2400 5950 2450
+	7000 2450 7000 2500
 Wire Wire Line
-	6700 2600 6700 2650
+	7750 2650 7750 2700
 Wire Wire Line
-	6700 2200 7100 2200
+	7750 2250 8150 2250
 Wire Wire Line
-	5650 2300 6000 2300
-Text Label 5650 2300 0    50   ~ 0
+	6700 2350 7050 2350
+Text Label 6700 2350 0    50   ~ 0
 PT5
-Text Label 7100 2200 2    50   ~ 0
+Text Label 8150 2250 2    50   ~ 0
 Ign3
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q16
 U 1 1 5F157CAF
-P 6600 3150
-F 0 "Q16" H 6788 3203 60  0000 L CNN
-F 1 "ZTX450" H 6788 3097 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 6800 3350 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 3450 60  0001 L CNN
-F 4 "ZTX450-ND" H 6800 3550 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 6800 3650 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6800 3750 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 6800 3850 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 3950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 6800 4050 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 6800 4150 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 6800 4250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6800 4350 60  0001 L CNN "Status"
-	1    6600 3150
+P 7650 3200
+F 0 "Q16" H 7838 3253 60  0000 L CNN
+F 1 "ZTX450" H 7838 3147 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 7850 3400 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 3500 60  0001 L CNN
+F 4 "ZTX450-ND" H 7850 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 7850 3700 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7850 3800 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7850 3900 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7850 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 7850 4200 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 7850 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 4400 60  0001 L CNN "Status"
+	1    7650 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR043
 U 1 1 5F157CB5
-P 5950 3200
-F 0 "#PWR043" H 5950 2950 50  0001 C CNN
-F 1 "GND" H 5955 3027 50  0000 C CNN
-F 2 "" H 5950 3200 50  0001 C CNN
-F 3 "" H 5950 3200 50  0001 C CNN
-	1    5950 3200
+P 7000 3250
+F 0 "#PWR043" H 7000 3000 50  0001 C CNN
+F 1 "GND" H 7005 3077 50  0000 C CNN
+F 2 "" H 7000 3250 50  0001 C CNN
+F 3 "" H 7000 3250 50  0001 C CNN
+	1    7000 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR051
 U 1 1 5F157CC7
-P 6700 3400
-F 0 "#PWR051" H 6700 3150 50  0001 C CNN
-F 1 "GND" H 6705 3227 50  0000 C CNN
-F 2 "" H 6700 3400 50  0001 C CNN
-F 3 "" H 6700 3400 50  0001 C CNN
-	1    6700 3400
+P 7750 3450
+F 0 "#PWR051" H 7750 3200 50  0001 C CNN
+F 1 "GND" H 7755 3277 50  0000 C CNN
+F 2 "" H 7750 3450 50  0001 C CNN
+F 3 "" H 7750 3450 50  0001 C CNN
+	1    7750 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 3050 6350 3050
+	7350 3100 7400 3100
 Wire Wire Line
-	6350 3050 6350 3150
+	7400 3100 7400 3200
 Wire Wire Line
-	6350 3150 6400 3150
+	7400 3200 7450 3200
 Wire Wire Line
-	6350 3150 6300 3150
-Connection ~ 6350 3150
+	7400 3200 7350 3200
+Connection ~ 7400 3200
 Wire Wire Line
-	6000 3150 5950 3150
+	7050 3200 7000 3200
 Wire Wire Line
-	5950 3150 5950 3200
+	7000 3200 7000 3250
 Wire Wire Line
-	6700 3350 6700 3400
+	7750 3400 7750 3450
 Wire Wire Line
-	6700 2950 7100 2950
+	7750 3000 8150 3000
 Wire Wire Line
-	5650 3050 6000 3050
-Text Label 5650 3050 0    50   ~ 0
+	6700 3100 7050 3100
+Text Label 6700 3100 0    50   ~ 0
 PT6
-Text Label 7100 2950 2    50   ~ 0
+Text Label 8150 3000 2    50   ~ 0
 Ign4
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q17
 U 1 1 5F161F16
-P 6600 3900
-F 0 "Q17" H 6788 3953 60  0000 L CNN
-F 1 "ZTX450" H 6788 3847 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 6800 4100 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 4200 60  0001 L CNN
-F 4 "ZTX450-ND" H 6800 4300 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 6800 4400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6800 4500 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 6800 4600 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 6800 4700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 6800 4800 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 6800 4900 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 6800 5000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6800 5100 60  0001 L CNN "Status"
-	1    6600 3900
+P 7650 3950
+F 0 "Q17" H 7838 4003 60  0000 L CNN
+F 1 "ZTX450" H 7838 3897 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 7850 4150 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 4250 60  0001 L CNN
+F 4 "ZTX450-ND" H 7850 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 7850 4450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7850 4550 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7850 4650 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7850 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7850 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 7850 4950 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 7850 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 5150 60  0001 L CNN "Status"
+	1    7650 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR044
 U 1 1 5F161F1C
-P 5950 3950
-F 0 "#PWR044" H 5950 3700 50  0001 C CNN
-F 1 "GND" H 5955 3777 50  0000 C CNN
-F 2 "" H 5950 3950 50  0001 C CNN
-F 3 "" H 5950 3950 50  0001 C CNN
-	1    5950 3950
+P 7000 4000
+F 0 "#PWR044" H 7000 3750 50  0001 C CNN
+F 1 "GND" H 7005 3827 50  0000 C CNN
+F 2 "" H 7000 4000 50  0001 C CNN
+F 3 "" H 7000 4000 50  0001 C CNN
+	1    7000 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR052
 U 1 1 5F161F2E
-P 6700 4150
-F 0 "#PWR052" H 6700 3900 50  0001 C CNN
-F 1 "GND" H 6705 3977 50  0000 C CNN
-F 2 "" H 6700 4150 50  0001 C CNN
-F 3 "" H 6700 4150 50  0001 C CNN
-	1    6700 4150
+P 7750 4200
+F 0 "#PWR052" H 7750 3950 50  0001 C CNN
+F 1 "GND" H 7755 4027 50  0000 C CNN
+F 2 "" H 7750 4200 50  0001 C CNN
+F 3 "" H 7750 4200 50  0001 C CNN
+	1    7750 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 3800 6350 3800
+	7350 3850 7400 3850
 Wire Wire Line
-	6350 3800 6350 3900
+	7400 3850 7400 3950
 Wire Wire Line
-	6350 3900 6400 3900
+	7400 3950 7450 3950
 Wire Wire Line
-	6350 3900 6300 3900
-Connection ~ 6350 3900
+	7400 3950 7350 3950
+Connection ~ 7400 3950
 Wire Wire Line
-	6000 3900 5950 3900
+	7050 3950 7000 3950
 Wire Wire Line
-	5950 3900 5950 3950
+	7000 3950 7000 4000
 Wire Wire Line
-	6700 4100 6700 4150
+	7750 4150 7750 4200
 Wire Wire Line
-	6700 3700 7100 3700
+	7750 3750 8150 3750
 Wire Wire Line
-	5650 3800 6000 3800
-Text Label 5650 3800 0    50   ~ 0
+	6700 3850 7050 3850
+Text Label 6700 3850 0    50   ~ 0
 PT7
-Text Label 7100 3700 2    50   ~ 0
+Text Label 8150 3750 2    50   ~ 0
 Ign5
-Text Label 8750 700  2    50   ~ 0
+Text Label 9800 750  2    50   ~ 0
 Inj1
-Text Label 8750 1450 2    50   ~ 0
+Text Label 9800 1500 2    50   ~ 0
 Inj2
-Text Label 8750 2200 2    50   ~ 0
+Text Label 9800 2250 2    50   ~ 0
 Inj3
-Text Label 8750 2950 2    50   ~ 0
+Text Label 9800 3000 2    50   ~ 0
 Inj4
-Text Label 8750 3700 2    50   ~ 0
+Text Label 9800 3750 2    50   ~ 0
 Inj5
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q6
 U 1 1 5F1967F3
-P 3150 7000
-F 0 "Q6" H 3338 7053 60  0000 L CNN
-F 1 "ZTX450" H 3338 6947 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 3350 7200 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 7300 60  0001 L CNN
-F 4 "ZTX450-ND" H 3350 7400 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 3350 7500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 3350 7600 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 3350 7700 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 7800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 3350 7900 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 3350 8000 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 3350 8100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3350 8200 60  0001 L CNN "Status"
-	1    3150 7000
-	1    0    0    -1  
+P 2350 7100
+F 0 "Q6" H 2538 7153 60  0000 L CNN
+F 1 "ZTX450" H 2538 7047 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 2550 7300 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 7400 60  0001 L CNN
+F 4 "ZTX450-ND" H 2550 7500 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 2550 7600 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2550 7700 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2550 7800 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 7900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 2550 8000 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 2550 8100 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2550 8200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2550 8300 60  0001 L CNN "Status"
+	1    2350 7100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR016
 U 1 1 5F1967F9
-P 2500 7050
-F 0 "#PWR016" H 2500 6800 50  0001 C CNN
-F 1 "GND" H 2505 6877 50  0000 C CNN
-F 2 "" H 2500 7050 50  0001 C CNN
-F 3 "" H 2500 7050 50  0001 C CNN
-	1    2500 7050
-	1    0    0    -1  
+P 3000 7150
+F 0 "#PWR016" H 3000 6900 50  0001 C CNN
+F 1 "GND" H 3005 6977 50  0000 C CNN
+F 2 "" H 3000 7150 50  0001 C CNN
+F 3 "" H 3000 7150 50  0001 C CNN
+	1    3000 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5F19680B
-P 3250 7250
-F 0 "#PWR025" H 3250 7000 50  0001 C CNN
-F 1 "GND" H 3255 7077 50  0000 C CNN
-F 2 "" H 3250 7250 50  0001 C CNN
-F 3 "" H 3250 7250 50  0001 C CNN
-	1    3250 7250
-	1    0    0    -1  
+P 2250 7350
+F 0 "#PWR025" H 2250 7100 50  0001 C CNN
+F 1 "GND" H 2255 7177 50  0000 C CNN
+F 2 "" H 2250 7350 50  0001 C CNN
+F 3 "" H 2250 7350 50  0001 C CNN
+	1    2250 7350
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 6900 2900 6900
+	2650 7000 2600 7000
 Wire Wire Line
-	2900 6900 2900 7000
+	2600 7000 2600 7100
 Wire Wire Line
-	2900 7000 2950 7000
+	2600 7100 2550 7100
 Wire Wire Line
-	2900 7000 2850 7000
-Connection ~ 2900 7000
+	2600 7100 2650 7100
+Connection ~ 2600 7100
 Wire Wire Line
-	2550 7000 2500 7000
+	2950 7100 3000 7100
 Wire Wire Line
-	2500 7000 2500 7050
+	3000 7100 3000 7150
 Wire Wire Line
-	3250 7200 3250 7250
+	2250 7300 2250 7350
 Wire Wire Line
-	3250 6800 3650 6800
+	2250 6900 1850 6900
 Wire Wire Line
-	2200 6900 2550 6900
-Text Label 2200 6900 0    50   ~ 0
+	3300 7000 2950 7000
+Text Label 3300 7000 2    50   ~ 0
 PP5
-Text Label 3650 6800 2    50   ~ 0
+Text Label 1850 6900 0    50   ~ 0
 PP5out
-$Comp
-L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q1
-U 1 1 5F1BF7B3
-P 3150 3250
-F 0 "Q1" H 3338 3303 60  0000 L CNN
-F 1 "ZTX450" H 3338 3197 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 3350 3450 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 3550 60  0001 L CNN
-F 4 "ZTX450-ND" H 3350 3650 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 3350 3750 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 3350 3850 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 3350 3950 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 4050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 3350 4150 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 3350 4250 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 3350 4350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3350 4450 60  0001 L CNN "Status"
-	1    3150 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5F1BF7B9
-P 2500 3300
-F 0 "#PWR011" H 2500 3050 50  0001 C CNN
-F 1 "GND" H 2505 3127 50  0000 C CNN
-F 2 "" H 2500 3300 50  0001 C CNN
-F 3 "" H 2500 3300 50  0001 C CNN
-	1    2500 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5F1BF7CB
-P 3250 3500
-F 0 "#PWR020" H 3250 3250 50  0001 C CNN
-F 1 "GND" H 3255 3327 50  0000 C CNN
-F 2 "" H 3250 3500 50  0001 C CNN
-F 3 "" H 3250 3500 50  0001 C CNN
-	1    3250 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 3150 2900 3150
-Wire Wire Line
-	2900 3150 2900 3250
-Wire Wire Line
-	2900 3250 2950 3250
-Wire Wire Line
-	2900 3250 2850 3250
-Connection ~ 2900 3250
-Wire Wire Line
-	2550 3250 2500 3250
-Wire Wire Line
-	2500 3250 2500 3300
-Wire Wire Line
-	3250 3450 3250 3500
-Wire Wire Line
-	3250 3050 3650 3050
-Wire Wire Line
-	2200 3150 2550 3150
-Text Label 2200 3150 0    50   ~ 0
-PB0
-Text Label 3650 3050 2    50   ~ 0
-FP
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q2
 U 1 1 5F1BF7E6
-P 3150 4000
-F 0 "Q2" H 3338 4053 60  0000 L CNN
-F 1 "ZTX450" H 3338 3947 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 3350 4200 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 4300 60  0001 L CNN
-F 4 "ZTX450-ND" H 3350 4400 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 3350 4500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 3350 4600 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 3350 4700 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 4800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 3350 4900 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 3350 5000 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 3350 5100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3350 5200 60  0001 L CNN "Status"
-	1    3150 4000
-	1    0    0    -1  
+P 2350 4100
+F 0 "Q2" H 2538 4153 60  0000 L CNN
+F 1 "ZTX450" H 2538 4047 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 2550 4300 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 4400 60  0001 L CNN
+F 4 "ZTX450-ND" H 2550 4500 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 2550 4600 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2550 4700 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2550 4800 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 4900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 2550 5000 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 2550 5100 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2550 5200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2550 5300 60  0001 L CNN "Status"
+	1    2350 4100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5F1BF7EC
-P 2500 4050
-F 0 "#PWR012" H 2500 3800 50  0001 C CNN
-F 1 "GND" H 2505 3877 50  0000 C CNN
-F 2 "" H 2500 4050 50  0001 C CNN
-F 3 "" H 2500 4050 50  0001 C CNN
-	1    2500 4050
-	1    0    0    -1  
+P 3000 4150
+F 0 "#PWR012" H 3000 3900 50  0001 C CNN
+F 1 "GND" H 3005 3977 50  0000 C CNN
+F 2 "" H 3000 4150 50  0001 C CNN
+F 3 "" H 3000 4150 50  0001 C CNN
+	1    3000 4150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5F1BF7FE
-P 3250 4250
-F 0 "#PWR021" H 3250 4000 50  0001 C CNN
-F 1 "GND" H 3255 4077 50  0000 C CNN
-F 2 "" H 3250 4250 50  0001 C CNN
-F 3 "" H 3250 4250 50  0001 C CNN
-	1    3250 4250
-	1    0    0    -1  
+P 2250 4350
+F 0 "#PWR021" H 2250 4100 50  0001 C CNN
+F 1 "GND" H 2255 4177 50  0000 C CNN
+F 2 "" H 2250 4350 50  0001 C CNN
+F 3 "" H 2250 4350 50  0001 C CNN
+	1    2250 4350
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3900 2900 3900
+	2650 4000 2600 4000
 Wire Wire Line
-	2900 3900 2900 4000
+	2600 4000 2600 4100
 Wire Wire Line
-	2900 4000 2950 4000
+	2600 4100 2550 4100
 Wire Wire Line
-	2900 4000 2850 4000
-Connection ~ 2900 4000
+	2600 4100 2650 4100
+Connection ~ 2600 4100
 Wire Wire Line
-	2550 4000 2500 4000
+	2950 4100 3000 4100
 Wire Wire Line
-	2500 4000 2500 4050
+	3000 4100 3000 4150
 Wire Wire Line
-	3250 4200 3250 4250
+	2250 4300 2250 4350
 Wire Wire Line
-	3250 3800 3650 3800
+	2250 3900 1850 3900
 Wire Wire Line
-	2200 3900 2550 3900
-Text Label 2200 3900 0    50   ~ 0
+	3300 4000 2950 4000
+Text Label 3300 4000 2    50   ~ 0
 PB1
-Text Label 3650 3800 2    50   ~ 0
+Text Label 1850 3900 0    50   ~ 0
 ASD
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q3
 U 1 1 5F1BF819
-P 3150 4750
-F 0 "Q3" H 3338 4803 60  0000 L CNN
-F 1 "ZTX450" H 3338 4697 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 3350 4950 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 5050 60  0001 L CNN
-F 4 "ZTX450-ND" H 3350 5150 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 3350 5250 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 3350 5350 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 3350 5450 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 5550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 3350 5650 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 3350 5750 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 3350 5850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3350 5950 60  0001 L CNN "Status"
-	1    3150 4750
-	1    0    0    -1  
+P 2350 4850
+F 0 "Q3" H 2538 4903 60  0000 L CNN
+F 1 "ZTX450" H 2538 4797 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 2550 5050 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 5150 60  0001 L CNN
+F 4 "ZTX450-ND" H 2550 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 2550 5350 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2550 5450 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2550 5550 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 2550 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 2550 5850 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2550 5950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2550 6050 60  0001 L CNN "Status"
+	1    2350 4850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 5F1BF81F
-P 2500 4800
-F 0 "#PWR013" H 2500 4550 50  0001 C CNN
-F 1 "GND" H 2505 4627 50  0000 C CNN
-F 2 "" H 2500 4800 50  0001 C CNN
-F 3 "" H 2500 4800 50  0001 C CNN
-	1    2500 4800
-	1    0    0    -1  
+P 3000 4900
+F 0 "#PWR013" H 3000 4650 50  0001 C CNN
+F 1 "GND" H 3005 4727 50  0000 C CNN
+F 2 "" H 3000 4900 50  0001 C CNN
+F 3 "" H 3000 4900 50  0001 C CNN
+	1    3000 4900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR022
 U 1 1 5F1BF831
-P 3250 5000
-F 0 "#PWR022" H 3250 4750 50  0001 C CNN
-F 1 "GND" H 3255 4827 50  0000 C CNN
-F 2 "" H 3250 5000 50  0001 C CNN
-F 3 "" H 3250 5000 50  0001 C CNN
-	1    3250 5000
-	1    0    0    -1  
+P 2250 5100
+F 0 "#PWR022" H 2250 4850 50  0001 C CNN
+F 1 "GND" H 2255 4927 50  0000 C CNN
+F 2 "" H 2250 5100 50  0001 C CNN
+F 3 "" H 2250 5100 50  0001 C CNN
+	1    2250 5100
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 4650 2900 4650
+	2650 4750 2600 4750
 Wire Wire Line
-	2900 4650 2900 4750
+	2600 4750 2600 4850
 Wire Wire Line
-	2900 4750 2950 4750
+	2600 4850 2550 4850
 Wire Wire Line
-	2900 4750 2850 4750
-Connection ~ 2900 4750
+	2600 4850 2650 4850
+Connection ~ 2600 4850
 Wire Wire Line
-	2550 4750 2500 4750
+	2950 4850 3000 4850
 Wire Wire Line
-	2500 4750 2500 4800
+	3000 4850 3000 4900
 Wire Wire Line
-	3250 4950 3250 5000
+	2250 5050 2250 5100
 Wire Wire Line
-	3250 4550 3650 4550
+	2250 4650 1850 4650
 Wire Wire Line
-	2200 4650 2550 4650
-Text Label 2200 4650 0    50   ~ 0
+	3300 4750 2950 4750
+Text Label 3300 4750 2    50   ~ 0
 PB2
-Text Label 3650 4550 2    50   ~ 0
+Text Label 1850 4650 0    50   ~ 0
 Alarm
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q4
 U 1 1 5F1BF84C
-P 3150 5500
-F 0 "Q4" H 3338 5553 60  0000 L CNN
-F 1 "ZTX450" H 3338 5447 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 3350 5700 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 5800 60  0001 L CNN
-F 4 "ZTX450-ND" H 3350 5900 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 3350 6000 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 3350 6100 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 3350 6200 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 6300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 3350 6400 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 3350 6500 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 3350 6600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3350 6700 60  0001 L CNN "Status"
-	1    3150 5500
-	1    0    0    -1  
+P 2350 5600
+F 0 "Q4" H 2538 5653 60  0000 L CNN
+F 1 "ZTX450" H 2538 5547 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 2550 5800 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 5900 60  0001 L CNN
+F 4 "ZTX450-ND" H 2550 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 2550 6100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2550 6200 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2550 6300 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 2550 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 2550 6600 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2550 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2550 6800 60  0001 L CNN "Status"
+	1    2350 5600
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 5F1BF852
-P 2500 5550
-F 0 "#PWR014" H 2500 5300 50  0001 C CNN
-F 1 "GND" H 2505 5377 50  0000 C CNN
-F 2 "" H 2500 5550 50  0001 C CNN
-F 3 "" H 2500 5550 50  0001 C CNN
-	1    2500 5550
-	1    0    0    -1  
+P 3000 5650
+F 0 "#PWR014" H 3000 5400 50  0001 C CNN
+F 1 "GND" H 3005 5477 50  0000 C CNN
+F 2 "" H 3000 5650 50  0001 C CNN
+F 3 "" H 3000 5650 50  0001 C CNN
+	1    3000 5650
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 5F1BF864
-P 3250 5750
-F 0 "#PWR023" H 3250 5500 50  0001 C CNN
-F 1 "GND" H 3255 5577 50  0000 C CNN
-F 2 "" H 3250 5750 50  0001 C CNN
-F 3 "" H 3250 5750 50  0001 C CNN
-	1    3250 5750
-	1    0    0    -1  
+P 2250 5850
+F 0 "#PWR023" H 2250 5600 50  0001 C CNN
+F 1 "GND" H 2255 5677 50  0000 C CNN
+F 2 "" H 2250 5850 50  0001 C CNN
+F 3 "" H 2250 5850 50  0001 C CNN
+	1    2250 5850
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 5400 2900 5400
+	2650 5500 2600 5500
 Wire Wire Line
-	2900 5400 2900 5500
+	2600 5500 2600 5600
 Wire Wire Line
-	2900 5500 2950 5500
+	2600 5600 2550 5600
 Wire Wire Line
-	2900 5500 2850 5500
-Connection ~ 2900 5500
+	2600 5600 2650 5600
+Connection ~ 2600 5600
 Wire Wire Line
-	2550 5500 2500 5500
+	2950 5600 3000 5600
 Wire Wire Line
-	2500 5500 2500 5550
+	3000 5600 3000 5650
 Wire Wire Line
-	3250 5700 3250 5750
+	2250 5800 2250 5850
 Wire Wire Line
-	3250 5300 3650 5300
+	2250 5400 1850 5400
 Wire Wire Line
-	2200 5400 2550 5400
-Text Label 2200 5400 0    50   ~ 0
+	3300 5500 2950 5500
+Text Label 3300 5500 2    50   ~ 0
 PB3
-Text Label 3650 5300 2    50   ~ 0
+Text Label 1850 5400 0    50   ~ 0
 AIOT
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q5
 U 1 1 5F1BF87F
-P 3150 6250
-F 0 "Q5" H 3338 6303 60  0000 L CNN
-F 1 "ZTX450" H 3338 6197 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 3350 6450 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 6550 60  0001 L CNN
-F 4 "ZTX450-ND" H 3350 6650 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 3350 6750 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 3350 6850 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 3350 6950 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 3350 7050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 3350 7150 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 3350 7250 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 3350 7350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3350 7450 60  0001 L CNN "Status"
-	1    3150 6250
-	1    0    0    -1  
+P 2350 6350
+F 0 "Q5" H 2538 6403 60  0000 L CNN
+F 1 "ZTX450" H 2538 6297 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 2550 6550 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 6650 60  0001 L CNN
+F 4 "ZTX450-ND" H 2550 6750 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 2550 6850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2550 6950 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2550 7050 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 7150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 2550 7250 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 2550 7350 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2550 7450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2550 7550 60  0001 L CNN "Status"
+	1    2350 6350
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 5F1BF885
-P 2500 6300
-F 0 "#PWR015" H 2500 6050 50  0001 C CNN
-F 1 "GND" H 2505 6127 50  0000 C CNN
-F 2 "" H 2500 6300 50  0001 C CNN
-F 3 "" H 2500 6300 50  0001 C CNN
-	1    2500 6300
-	1    0    0    -1  
+P 3000 6400
+F 0 "#PWR015" H 3000 6150 50  0001 C CNN
+F 1 "GND" H 3005 6227 50  0000 C CNN
+F 2 "" H 3000 6400 50  0001 C CNN
+F 3 "" H 3000 6400 50  0001 C CNN
+	1    3000 6400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR024
 U 1 1 5F1BF897
-P 3250 6500
-F 0 "#PWR024" H 3250 6250 50  0001 C CNN
-F 1 "GND" H 3255 6327 50  0000 C CNN
-F 2 "" H 3250 6500 50  0001 C CNN
-F 3 "" H 3250 6500 50  0001 C CNN
-	1    3250 6500
-	1    0    0    -1  
+P 2250 6600
+F 0 "#PWR024" H 2250 6350 50  0001 C CNN
+F 1 "GND" H 2255 6427 50  0000 C CNN
+F 2 "" H 2250 6600 50  0001 C CNN
+F 3 "" H 2250 6600 50  0001 C CNN
+	1    2250 6600
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 6150 2900 6150
+	2650 6250 2600 6250
 Wire Wire Line
-	2900 6150 2900 6250
+	2600 6250 2600 6350
 Wire Wire Line
-	2900 6250 2950 6250
+	2600 6350 2550 6350
 Wire Wire Line
-	2900 6250 2850 6250
-Connection ~ 2900 6250
+	2600 6350 2650 6350
+Connection ~ 2600 6350
 Wire Wire Line
-	2550 6250 2500 6250
+	2950 6350 3000 6350
 Wire Wire Line
-	2500 6250 2500 6300
+	3000 6350 3000 6400
 Wire Wire Line
-	3250 6450 3250 6500
+	2250 6550 2250 6600
 Wire Wire Line
-	3250 6050 3650 6050
+	2250 6150 1850 6150
 Wire Wire Line
-	2200 6150 2550 6150
-Text Label 2200 6150 0    50   ~ 0
+	3300 6250 2950 6250
+Text Label 3300 6250 2    50   ~ 0
 PB4
-Text Label 3650 6050 2    50   ~ 0
+Text Label 1850 6150 0    50   ~ 0
 PB4out
 $Comp
 L power:+BATT #PWR017
@@ -1338,12 +1237,12 @@ $EndComp
 $Comp
 L power:+BATT #PWR06
 U 1 1 5F1D7F49
-P 1650 4400
-F 0 "#PWR06" H 1650 4250 50  0001 C CNN
-F 1 "+BATT" V 1665 4528 50  0000 L CNN
-F 2 "" H 1650 4400 50  0001 C CNN
-F 3 "" H 1650 4400 50  0001 C CNN
-	1    1650 4400
+P 6150 3500
+F 0 "#PWR06" H 6150 3350 50  0001 C CNN
+F 1 "+BATT" V 6165 3628 50  0000 L CNN
+F 2 "" H 6150 3500 50  0001 C CNN
+F 3 "" H 6150 3500 50  0001 C CNN
+	1    6150 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1367,910 +1266,897 @@ F 3 "" H 1950 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1950 1850 1950 1950
-Text Label 9200 1850 0    50   ~ 0
+Text Label 9500 4700 0    50   ~ 0
 Ign4
-NoConn ~ 9450 1650
-NoConn ~ 9450 2250
-NoConn ~ 9450 3050
+NoConn ~ 9750 4500
+NoConn ~ 9750 5100
+NoConn ~ 9750 5900
 Wire Wire Line
-	9450 1750 9200 1750
+	9750 4600 9500 4600
 Wire Wire Line
-	9450 1850 9200 1850
+	9750 4700 9500 4700
 Wire Wire Line
-	9450 1950 9200 1950
+	9750 4800 9500 4800
 Wire Wire Line
-	9450 2050 9200 2050
+	9750 4900 9500 4900
 Wire Wire Line
-	9450 2150 9200 2150
+	9750 5000 9500 5000
 Wire Wire Line
-	9450 2350 9200 2350
+	9750 5200 9500 5200
 Wire Wire Line
-	9450 2450 9200 2450
+	9750 5300 9500 5300
 Wire Wire Line
-	9450 2550 9200 2550
+	9750 5400 9500 5400
 Wire Wire Line
-	9450 2650 9200 2650
+	9750 5500 9500 5500
 Wire Wire Line
-	9450 2750 9200 2750
-Text Label 9200 2050 0    50   ~ 0
+	9750 5600 9500 5600
+Text Label 9500 4900 0    50   ~ 0
 Ign2
-Text Label 9200 1950 0    50   ~ 0
+Text Label 9500 4800 0    50   ~ 0
 Ign3
-Text Label 9200 2150 0    50   ~ 0
+Text Label 9500 5000 0    50   ~ 0
 Ign1
-Text Label 9200 1750 0    50   ~ 0
+Text Label 9500 4600 0    50   ~ 0
 Ign5
-Text Label 9200 2750 0    50   ~ 0
+Text Label 9500 5600 0    50   ~ 0
 Inj1
-Text Label 9200 2650 0    50   ~ 0
+Text Label 9500 5500 0    50   ~ 0
 Inj2
-Text Label 9200 2550 0    50   ~ 0
+Text Label 9500 5400 0    50   ~ 0
 Inj3
-Text Label 9200 2450 0    50   ~ 0
+Text Label 9500 5300 0    50   ~ 0
 Inj4
-Text Label 9200 2350 0    50   ~ 0
+Text Label 9500 5200 0    50   ~ 0
 Inj5
 $Comp
 L power:+BATT #PWR067
 U 1 1 5F242DB6
-P 9300 2950
-F 0 "#PWR067" H 9300 2800 50  0001 C CNN
-F 1 "+BATT" V 9300 3200 50  0000 C CNN
-F 2 "" H 9300 2950 50  0001 C CNN
-F 3 "" H 9300 2950 50  0001 C CNN
-	1    9300 2950
+P 9600 5800
+F 0 "#PWR067" H 9600 5650 50  0001 C CNN
+F 1 "+BATT" V 9600 6050 50  0000 C CNN
+F 2 "" H 9600 5800 50  0001 C CNN
+F 3 "" H 9600 5800 50  0001 C CNN
+	1    9600 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VDD #PWR066
 U 1 1 5F2432FE
-P 9300 2850
-F 0 "#PWR066" H 9300 2700 50  0001 C CNN
-F 1 "VDD" V 9300 3050 50  0000 C CNN
-F 2 "" H 9300 2850 50  0001 C CNN
-F 3 "" H 9300 2850 50  0001 C CNN
-	1    9300 2850
+P 9600 5700
+F 0 "#PWR066" H 9600 5550 50  0001 C CNN
+F 1 "VDD" V 9600 5900 50  0000 C CNN
+F 2 "" H 9600 5700 50  0001 C CNN
+F 3 "" H 9600 5700 50  0001 C CNN
+	1    9600 5700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9450 2850 9300 2850
+	9750 5700 9600 5700
 Wire Wire Line
-	9450 2950 9300 2950
-Text Label 7300 3800 0    50   ~ 0
+	9750 5800 9600 5800
+Text Label 8350 3850 0    50   ~ 0
 PP4
 Wire Wire Line
-	7300 3800 7650 3800
+	8350 3850 8700 3850
 Wire Wire Line
-	8350 3700 8750 3700
+	9400 3750 9800 3750
 Wire Wire Line
-	8350 4100 8350 4150
+	9400 4150 9400 4200
 Wire Wire Line
-	7600 3900 7600 3950
+	8650 3950 8650 4000
 Wire Wire Line
-	7650 3900 7600 3900
-Connection ~ 8000 3900
+	8700 3950 8650 3950
+Connection ~ 9050 3950
 Wire Wire Line
-	8000 3900 7950 3900
+	9050 3950 9000 3950
 Wire Wire Line
-	8000 3900 8050 3900
+	9050 3950 9100 3950
 Wire Wire Line
-	8000 3800 8000 3900
+	9050 3850 9050 3950
 Wire Wire Line
-	7950 3800 8000 3800
+	9000 3850 9050 3850
 $Comp
 L power:GND #PWR065
 U 1 1 5F186474
-P 8350 4150
-F 0 "#PWR065" H 8350 3900 50  0001 C CNN
-F 1 "GND" H 8355 3977 50  0000 C CNN
-F 2 "" H 8350 4150 50  0001 C CNN
-F 3 "" H 8350 4150 50  0001 C CNN
-	1    8350 4150
+P 9400 4200
+F 0 "#PWR065" H 9400 3950 50  0001 C CNN
+F 1 "GND" H 9405 4027 50  0000 C CNN
+F 2 "" H 9400 4200 50  0001 C CNN
+F 3 "" H 9400 4200 50  0001 C CNN
+	1    9400 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR060
 U 1 1 5F186462
-P 7600 3950
-F 0 "#PWR060" H 7600 3700 50  0001 C CNN
-F 1 "GND" H 7605 3777 50  0000 C CNN
-F 2 "" H 7600 3950 50  0001 C CNN
-F 3 "" H 7600 3950 50  0001 C CNN
-	1    7600 3950
+P 8650 4000
+F 0 "#PWR060" H 8650 3750 50  0001 C CNN
+F 1 "GND" H 8655 3827 50  0000 C CNN
+F 2 "" H 8650 4000 50  0001 C CNN
+F 3 "" H 8650 4000 50  0001 C CNN
+	1    8650 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q25
 U 1 1 5F18645C
-P 8250 3900
-F 0 "Q25" H 8438 3953 60  0000 L CNN
-F 1 "ZTX450" H 8438 3847 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 8450 4100 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 4200 60  0001 L CNN
-F 4 "ZTX450-ND" H 8450 4300 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 8450 4400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8450 4500 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 8450 4600 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 4700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 8450 4800 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 8450 4900 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 8450 5000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8450 5100 60  0001 L CNN "Status"
-	1    8250 3900
+P 9300 3950
+F 0 "Q25" H 9488 4003 60  0000 L CNN
+F 1 "ZTX450" H 9488 3897 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 9500 4150 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 4250 60  0001 L CNN
+F 4 "ZTX450-ND" H 9500 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 9500 4450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9500 4550 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9500 4650 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 9500 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 9500 4950 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 9500 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9500 5150 60  0001 L CNN "Status"
+	1    9300 3950
 	1    0    0    -1  
 $EndComp
-Text Label 7300 3050 0    50   ~ 0
+Text Label 8350 3100 0    50   ~ 0
 PP3
 Wire Wire Line
-	7300 3050 7650 3050
+	8350 3100 8700 3100
 Wire Wire Line
-	8350 2950 8750 2950
+	9400 3000 9800 3000
 Wire Wire Line
-	8350 3350 8350 3400
+	9400 3400 9400 3450
 Wire Wire Line
-	7600 3150 7600 3200
+	8650 3200 8650 3250
 Wire Wire Line
-	7650 3150 7600 3150
-Connection ~ 8000 3150
+	8700 3200 8650 3200
+Connection ~ 9050 3200
 Wire Wire Line
-	8000 3150 7950 3150
+	9050 3200 9000 3200
 Wire Wire Line
-	8000 3150 8050 3150
+	9050 3200 9100 3200
 Wire Wire Line
-	8000 3050 8000 3150
+	9050 3100 9050 3200
 Wire Wire Line
-	7950 3050 8000 3050
+	9000 3100 9050 3100
 $Comp
 L power:GND #PWR064
 U 1 1 5F186441
-P 8350 3400
-F 0 "#PWR064" H 8350 3150 50  0001 C CNN
-F 1 "GND" H 8355 3227 50  0000 C CNN
-F 2 "" H 8350 3400 50  0001 C CNN
-F 3 "" H 8350 3400 50  0001 C CNN
-	1    8350 3400
+P 9400 3450
+F 0 "#PWR064" H 9400 3200 50  0001 C CNN
+F 1 "GND" H 9405 3277 50  0000 C CNN
+F 2 "" H 9400 3450 50  0001 C CNN
+F 3 "" H 9400 3450 50  0001 C CNN
+	1    9400 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR059
 U 1 1 5F18642F
-P 7600 3200
-F 0 "#PWR059" H 7600 2950 50  0001 C CNN
-F 1 "GND" H 7605 3027 50  0000 C CNN
-F 2 "" H 7600 3200 50  0001 C CNN
-F 3 "" H 7600 3200 50  0001 C CNN
-	1    7600 3200
+P 8650 3250
+F 0 "#PWR059" H 8650 3000 50  0001 C CNN
+F 1 "GND" H 8655 3077 50  0000 C CNN
+F 2 "" H 8650 3250 50  0001 C CNN
+F 3 "" H 8650 3250 50  0001 C CNN
+	1    8650 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q24
 U 1 1 5F186429
-P 8250 3150
-F 0 "Q24" H 8438 3203 60  0000 L CNN
-F 1 "ZTX450" H 8438 3097 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 8450 3350 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 3450 60  0001 L CNN
-F 4 "ZTX450-ND" H 8450 3550 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 8450 3650 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8450 3750 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 8450 3850 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 3950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 8450 4050 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 8450 4150 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 8450 4250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8450 4350 60  0001 L CNN "Status"
-	1    8250 3150
+P 9300 3200
+F 0 "Q24" H 9488 3253 60  0000 L CNN
+F 1 "ZTX450" H 9488 3147 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 9500 3400 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 3500 60  0001 L CNN
+F 4 "ZTX450-ND" H 9500 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 9500 3700 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9500 3800 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9500 3900 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 9500 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 9500 4200 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 9500 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9500 4400 60  0001 L CNN "Status"
+	1    9300 3200
 	1    0    0    -1  
 $EndComp
-Text Label 7300 2300 0    50   ~ 0
+Text Label 8350 2350 0    50   ~ 0
 PP2
 Wire Wire Line
-	7300 2300 7650 2300
+	8350 2350 8700 2350
 Wire Wire Line
-	8350 2200 8750 2200
+	9400 2250 9800 2250
 Wire Wire Line
-	8350 2600 8350 2650
+	9400 2650 9400 2700
 Wire Wire Line
-	7600 2400 7600 2450
+	8650 2450 8650 2500
 Wire Wire Line
-	7650 2400 7600 2400
-Connection ~ 8000 2400
+	8700 2450 8650 2450
+Connection ~ 9050 2450
 Wire Wire Line
-	8000 2400 7950 2400
+	9050 2450 9000 2450
 Wire Wire Line
-	8000 2400 8050 2400
+	9050 2450 9100 2450
 Wire Wire Line
-	8000 2300 8000 2400
+	9050 2350 9050 2450
 Wire Wire Line
-	7950 2300 8000 2300
+	9000 2350 9050 2350
 $Comp
 L power:GND #PWR063
 U 1 1 5F18640E
-P 8350 2650
-F 0 "#PWR063" H 8350 2400 50  0001 C CNN
-F 1 "GND" H 8355 2477 50  0000 C CNN
-F 2 "" H 8350 2650 50  0001 C CNN
-F 3 "" H 8350 2650 50  0001 C CNN
-	1    8350 2650
+P 9400 2700
+F 0 "#PWR063" H 9400 2450 50  0001 C CNN
+F 1 "GND" H 9405 2527 50  0000 C CNN
+F 2 "" H 9400 2700 50  0001 C CNN
+F 3 "" H 9400 2700 50  0001 C CNN
+	1    9400 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR058
 U 1 1 5F1863FC
-P 7600 2450
-F 0 "#PWR058" H 7600 2200 50  0001 C CNN
-F 1 "GND" H 7605 2277 50  0000 C CNN
-F 2 "" H 7600 2450 50  0001 C CNN
-F 3 "" H 7600 2450 50  0001 C CNN
-	1    7600 2450
+P 8650 2500
+F 0 "#PWR058" H 8650 2250 50  0001 C CNN
+F 1 "GND" H 8655 2327 50  0000 C CNN
+F 2 "" H 8650 2500 50  0001 C CNN
+F 3 "" H 8650 2500 50  0001 C CNN
+	1    8650 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q23
 U 1 1 5F1863F6
-P 8250 2400
-F 0 "Q23" H 8438 2453 60  0000 L CNN
-F 1 "ZTX450" H 8438 2347 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 8450 2600 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 2700 60  0001 L CNN
-F 4 "ZTX450-ND" H 8450 2800 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 8450 2900 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8450 3000 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 8450 3100 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 3200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 8450 3300 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 8450 3400 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 8450 3500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8450 3600 60  0001 L CNN "Status"
-	1    8250 2400
+P 9300 2450
+F 0 "Q23" H 9488 2503 60  0000 L CNN
+F 1 "ZTX450" H 9488 2397 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 9500 2650 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 2750 60  0001 L CNN
+F 4 "ZTX450-ND" H 9500 2850 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 9500 2950 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9500 3050 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9500 3150 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 3250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 9500 3350 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 9500 3450 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 9500 3550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9500 3650 60  0001 L CNN "Status"
+	1    9300 2450
 	1    0    0    -1  
 $EndComp
-Text Label 7300 1550 0    50   ~ 0
+Text Label 8350 1600 0    50   ~ 0
 PP1
 Wire Wire Line
-	7300 1550 7650 1550
+	8350 1600 8700 1600
 Wire Wire Line
-	8350 1450 8750 1450
+	9400 1500 9800 1500
 Wire Wire Line
-	8350 1850 8350 1900
+	9400 1900 9400 1950
 Wire Wire Line
-	7600 1650 7600 1700
+	8650 1700 8650 1750
 Wire Wire Line
-	7650 1650 7600 1650
-Connection ~ 8000 1650
+	8700 1700 8650 1700
+Connection ~ 9050 1700
 Wire Wire Line
-	8000 1650 7950 1650
+	9050 1700 9000 1700
 Wire Wire Line
-	8000 1650 8050 1650
+	9050 1700 9100 1700
 Wire Wire Line
-	8000 1550 8000 1650
+	9050 1600 9050 1700
 Wire Wire Line
-	7950 1550 8000 1550
+	9000 1600 9050 1600
 $Comp
 L power:GND #PWR062
 U 1 1 5F1863DB
-P 8350 1900
-F 0 "#PWR062" H 8350 1650 50  0001 C CNN
-F 1 "GND" H 8355 1727 50  0000 C CNN
-F 2 "" H 8350 1900 50  0001 C CNN
-F 3 "" H 8350 1900 50  0001 C CNN
-	1    8350 1900
+P 9400 1950
+F 0 "#PWR062" H 9400 1700 50  0001 C CNN
+F 1 "GND" H 9405 1777 50  0000 C CNN
+F 2 "" H 9400 1950 50  0001 C CNN
+F 3 "" H 9400 1950 50  0001 C CNN
+	1    9400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR057
 U 1 1 5F1863C9
-P 7600 1700
-F 0 "#PWR057" H 7600 1450 50  0001 C CNN
-F 1 "GND" H 7605 1527 50  0000 C CNN
-F 2 "" H 7600 1700 50  0001 C CNN
-F 3 "" H 7600 1700 50  0001 C CNN
-	1    7600 1700
+P 8650 1750
+F 0 "#PWR057" H 8650 1500 50  0001 C CNN
+F 1 "GND" H 8655 1577 50  0000 C CNN
+F 2 "" H 8650 1750 50  0001 C CNN
+F 3 "" H 8650 1750 50  0001 C CNN
+	1    8650 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q22
 U 1 1 5F1863C3
-P 8250 1650
-F 0 "Q22" H 8438 1703 60  0000 L CNN
-F 1 "ZTX450" H 8438 1597 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 8450 1850 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 1950 60  0001 L CNN
-F 4 "ZTX450-ND" H 8450 2050 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 8450 2150 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8450 2250 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 8450 2350 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 2450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 8450 2550 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 8450 2650 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 8450 2750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8450 2850 60  0001 L CNN "Status"
-	1    8250 1650
+P 9300 1700
+F 0 "Q22" H 9488 1753 60  0000 L CNN
+F 1 "ZTX450" H 9488 1647 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 9500 1900 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 2000 60  0001 L CNN
+F 4 "ZTX450-ND" H 9500 2100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 9500 2200 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9500 2300 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9500 2400 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 2500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 9500 2600 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 9500 2700 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 9500 2800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9500 2900 60  0001 L CNN "Status"
+	1    9300 1700
 	1    0    0    -1  
 $EndComp
-Text Label 7300 800  0    50   ~ 0
+Text Label 8350 850  0    50   ~ 0
 PP0
 Wire Wire Line
-	7300 800  7650 800 
+	8350 850  8700 850 
 Wire Wire Line
-	8350 700  8750 700 
+	9400 750  9800 750 
 Wire Wire Line
-	8350 1100 8350 1150
+	9400 1150 9400 1200
 Wire Wire Line
-	7600 900  7600 950 
+	8650 950  8650 1000
 Wire Wire Line
-	7650 900  7600 900 
-Connection ~ 8000 900 
+	8700 950  8650 950 
+Connection ~ 9050 950 
 Wire Wire Line
-	8000 900  7950 900 
+	9050 950  9000 950 
 Wire Wire Line
-	8000 900  8050 900 
+	9050 950  9100 950 
 Wire Wire Line
-	8000 800  8000 900 
+	9050 850  9050 950 
 Wire Wire Line
-	7950 800  8000 800 
+	9000 850  9050 850 
 $Comp
 L power:GND #PWR061
 U 1 1 5F1863A8
-P 8350 1150
-F 0 "#PWR061" H 8350 900 50  0001 C CNN
-F 1 "GND" H 8355 977 50  0000 C CNN
-F 2 "" H 8350 1150 50  0001 C CNN
-F 3 "" H 8350 1150 50  0001 C CNN
-	1    8350 1150
+P 9400 1200
+F 0 "#PWR061" H 9400 950 50  0001 C CNN
+F 1 "GND" H 9405 1027 50  0000 C CNN
+F 2 "" H 9400 1200 50  0001 C CNN
+F 3 "" H 9400 1200 50  0001 C CNN
+	1    9400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR056
 U 1 1 5F186396
-P 7600 950
-F 0 "#PWR056" H 7600 700 50  0001 C CNN
-F 1 "GND" H 7605 777 50  0000 C CNN
-F 2 "" H 7600 950 50  0001 C CNN
-F 3 "" H 7600 950 50  0001 C CNN
-	1    7600 950 
+P 8650 1000
+F 0 "#PWR056" H 8650 750 50  0001 C CNN
+F 1 "GND" H 8655 827 50  0000 C CNN
+F 2 "" H 8650 1000 50  0001 C CNN
+F 3 "" H 8650 1000 50  0001 C CNN
+	1    8650 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q21
 U 1 1 5F186390
-P 8250 900
-F 0 "Q21" H 8438 953 60  0000 L CNN
-F 1 "ZTX450" H 8438 847 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 8450 1100 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 1200 60  0001 L CNN
-F 4 "ZTX450-ND" H 8450 1300 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 8450 1400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8450 1500 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 8450 1600 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 8450 1700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 8450 1800 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 8450 1900 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 8450 2000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8450 2100 60  0001 L CNN "Status"
-	1    8250 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:DB15_Female J3
-U 1 1 5F05B2E7
-P 8900 5550
-F 0 "J3" H 9054 5596 50  0000 L CNN
-F 1 "DB15_Female" V 9200 5400 50  0000 L CNN
-F 2 "digikey-footprints:DB15FC" H 8900 5550 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/c01-8646-0823.pdf?__cf_chl_jschl_tk__=52e343483256d734238c8f5f8e0ffb36590a1620-1593192236-0-AfAKE4f8IVdiA3f8LTMpzZCZ4Xh-2ZWejyK9U1oeF2PLIfvyJQet3yAoZsr92TGTZm-pyA-RAJ95pDtBa6ERBwzne-l1_kpI0CR5U7FgJIsB9M8VPGqzfYAnCoLJIWJ1VuMYrw22wDQpT5UlZfIZ4cCE4h_0W6W82ejf1shp5xb7dQyWksSO6BYVUbY9p9bB9Rldj8JI9gP3MwqKYfpmHouwIPlrMnXrEDpwSfXTmoZ7w5T5WQCjOKqKaHIdMWy9o8MvGRMFTXDc_Eq3VavT8lXIQN8n4nMLgkQHOr0qkgXf6TzmJNS-tWyrUVeBvCyCGjQXCFboM8Ur57Vxlap56NgFqRbZrIqZlZs7aW2uZxlM5RUNLwaEvP4EIpUo6ZP10Cx_jIFDHQ0NuPBJ1artnOo" H 8900 5550 50  0001 C CNN
-F 4 "D15S33E4GX00LF" H 8900 5550 50  0001 C CNN "Mfg"
-F 5 "609-1499-ND" H 8900 5550 50  0001 C CNN "Digikey"
-	1    8900 5550
+P 9300 950
+F 0 "Q21" H 9488 1003 60  0000 L CNN
+F 1 "ZTX450" H 9488 897 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 9500 1150 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 1250 60  0001 L CNN
+F 4 "ZTX450-ND" H 9500 1350 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 9500 1450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9500 1550 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9500 1650 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 9500 1750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 9500 1850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 9500 1950 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 9500 2050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9500 2150 60  0001 L CNN "Status"
+	1    9300 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q12
 U 1 1 5F06FB08
-P 4900 7000
-F 0 "Q12" H 5088 7053 60  0000 L CNN
-F 1 "ZTX450" H 5088 6947 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 5100 7200 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 7300 60  0001 L CNN
-F 4 "ZTX450-ND" H 5100 7400 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 5100 7500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5100 7600 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5100 7700 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 7800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5100 7900 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 5100 8000 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 5100 8100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 8200 60  0001 L CNN "Status"
-	1    4900 7000
-	1    0    0    -1  
+P 3900 7100
+F 0 "Q12" H 4088 7153 60  0000 L CNN
+F 1 "ZTX450" H 4088 7047 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 4100 7300 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 7400 60  0001 L CNN
+F 4 "ZTX450-ND" H 4100 7500 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 4100 7600 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 7700 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4100 7800 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 7900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 4100 8000 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 4100 8100 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 8200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 8300 60  0001 L CNN "Status"
+	1    3900 7100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR031
 U 1 1 5F06FB0E
-P 4250 7050
-F 0 "#PWR031" H 4250 6800 50  0001 C CNN
-F 1 "GND" H 4255 6877 50  0000 C CNN
-F 2 "" H 4250 7050 50  0001 C CNN
-F 3 "" H 4250 7050 50  0001 C CNN
-	1    4250 7050
-	1    0    0    -1  
+P 4550 7150
+F 0 "#PWR031" H 4550 6900 50  0001 C CNN
+F 1 "GND" H 4555 6977 50  0000 C CNN
+F 2 "" H 4550 7150 50  0001 C CNN
+F 3 "" H 4550 7150 50  0001 C CNN
+	1    4550 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR039
 U 1 1 5F06FB20
-P 5000 7250
-F 0 "#PWR039" H 5000 7000 50  0001 C CNN
-F 1 "GND" H 5005 7077 50  0000 C CNN
-F 2 "" H 5000 7250 50  0001 C CNN
-F 3 "" H 5000 7250 50  0001 C CNN
-	1    5000 7250
-	1    0    0    -1  
+P 3800 7350
+F 0 "#PWR039" H 3800 7100 50  0001 C CNN
+F 1 "GND" H 3805 7177 50  0000 C CNN
+F 2 "" H 3800 7350 50  0001 C CNN
+F 3 "" H 3800 7350 50  0001 C CNN
+	1    3800 7350
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 6900 4650 6900
+	4200 7000 4150 7000
 Wire Wire Line
-	4650 6900 4650 7000
+	4150 7000 4150 7100
 Wire Wire Line
-	4650 7000 4700 7000
+	4150 7100 4100 7100
 Wire Wire Line
-	4650 7000 4600 7000
-Connection ~ 4650 7000
+	4150 7100 4200 7100
+Connection ~ 4150 7100
 Wire Wire Line
-	4300 7000 4250 7000
+	4500 7100 4550 7100
 Wire Wire Line
-	4250 7000 4250 7050
+	4550 7100 4550 7150
 Wire Wire Line
-	5000 7200 5000 7250
+	3800 7300 3800 7350
 Wire Wire Line
-	5000 6800 5400 6800
+	3800 6900 3400 6900
 Wire Wire Line
-	3950 6900 4300 6900
-Text Label 3950 6900 0    50   ~ 0
+	4850 7000 4500 7000
+Text Label 4850 7000 2    50   ~ 0
 PK3
-Text Label 5400 6800 2    50   ~ 0
+Text Label 3400 6900 0    50   ~ 0
 HEGT
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q9
 U 1 1 5F06FB3B
-P 4900 4750
-F 0 "Q9" H 5088 4803 60  0000 L CNN
-F 1 "ZTX450" H 5088 4697 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 5100 4950 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 5050 60  0001 L CNN
-F 4 "ZTX450-ND" H 5100 5150 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 5100 5250 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5100 5350 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5100 5450 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 5550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5100 5650 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 5100 5750 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 5100 5850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 5950 60  0001 L CNN "Status"
-	1    4900 4750
-	1    0    0    -1  
+P 3900 4850
+F 0 "Q9" H 4088 4903 60  0000 L CNN
+F 1 "ZTX450" H 4088 4797 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 4100 5050 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 5150 60  0001 L CNN
+F 4 "ZTX450-ND" H 4100 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 4100 5350 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 5450 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4100 5550 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 4100 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 4100 5850 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 5950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 6050 60  0001 L CNN "Status"
+	1    3900 4850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5F06FB41
-P 4250 4800
-F 0 "#PWR028" H 4250 4550 50  0001 C CNN
-F 1 "GND" H 4255 4627 50  0000 C CNN
-F 2 "" H 4250 4800 50  0001 C CNN
-F 3 "" H 4250 4800 50  0001 C CNN
-	1    4250 4800
-	1    0    0    -1  
+P 4550 4900
+F 0 "#PWR028" H 4550 4650 50  0001 C CNN
+F 1 "GND" H 4555 4727 50  0000 C CNN
+F 2 "" H 4550 4900 50  0001 C CNN
+F 3 "" H 4550 4900 50  0001 C CNN
+	1    4550 4900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR036
 U 1 1 5F06FB53
-P 5000 5000
-F 0 "#PWR036" H 5000 4750 50  0001 C CNN
-F 1 "GND" H 5005 4827 50  0000 C CNN
-F 2 "" H 5000 5000 50  0001 C CNN
-F 3 "" H 5000 5000 50  0001 C CNN
-	1    5000 5000
-	1    0    0    -1  
+P 3800 5100
+F 0 "#PWR036" H 3800 4850 50  0001 C CNN
+F 1 "GND" H 3805 4927 50  0000 C CNN
+F 2 "" H 3800 5100 50  0001 C CNN
+F 3 "" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 4650 4650 4650
+	4200 4750 4150 4750
 Wire Wire Line
-	4650 4650 4650 4750
+	4150 4750 4150 4850
 Wire Wire Line
-	4650 4750 4700 4750
+	4150 4850 4100 4850
 Wire Wire Line
-	4650 4750 4600 4750
-Connection ~ 4650 4750
+	4150 4850 4200 4850
+Connection ~ 4150 4850
 Wire Wire Line
-	4300 4750 4250 4750
+	4500 4850 4550 4850
 Wire Wire Line
-	4250 4750 4250 4800
+	4550 4850 4550 4900
 Wire Wire Line
-	5000 4950 5000 5000
+	3800 5050 3800 5100
 Wire Wire Line
-	5000 4550 5400 4550
+	3800 4650 3400 4650
 Wire Wire Line
-	3950 4650 4300 4650
-Text Label 3950 4650 0    50   ~ 0
+	4850 4750 4500 4750
+Text Label 4850 4750 2    50   ~ 0
 PK0
-Text Label 5400 4550 2    50   ~ 0
+Text Label 3400 4650 0    50   ~ 0
 LOP
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q10
 U 1 1 5F06FB6E
-P 4900 5500
-F 0 "Q10" H 5088 5553 60  0000 L CNN
-F 1 "ZTX450" H 5088 5447 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 5100 5700 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 5800 60  0001 L CNN
-F 4 "ZTX450-ND" H 5100 5900 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 5100 6000 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5100 6100 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5100 6200 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 6300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5100 6400 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 5100 6500 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 5100 6600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 6700 60  0001 L CNN "Status"
-	1    4900 5500
-	1    0    0    -1  
+P 3900 5600
+F 0 "Q10" H 4088 5653 60  0000 L CNN
+F 1 "ZTX450" H 4088 5547 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 4100 5800 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 5900 60  0001 L CNN
+F 4 "ZTX450-ND" H 4100 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 4100 6100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 6200 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4100 6300 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 4100 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 4100 6600 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 6800 60  0001 L CNN "Status"
+	1    3900 5600
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 5F06FB74
-P 4250 5550
-F 0 "#PWR029" H 4250 5300 50  0001 C CNN
-F 1 "GND" H 4255 5377 50  0000 C CNN
-F 2 "" H 4250 5550 50  0001 C CNN
-F 3 "" H 4250 5550 50  0001 C CNN
-	1    4250 5550
-	1    0    0    -1  
+P 4550 5650
+F 0 "#PWR029" H 4550 5400 50  0001 C CNN
+F 1 "GND" H 4555 5477 50  0000 C CNN
+F 2 "" H 4550 5650 50  0001 C CNN
+F 3 "" H 4550 5650 50  0001 C CNN
+	1    4550 5650
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR037
 U 1 1 5F06FB86
-P 5000 5750
-F 0 "#PWR037" H 5000 5500 50  0001 C CNN
-F 1 "GND" H 5005 5577 50  0000 C CNN
-F 2 "" H 5000 5750 50  0001 C CNN
-F 3 "" H 5000 5750 50  0001 C CNN
-	1    5000 5750
-	1    0    0    -1  
+P 3800 5850
+F 0 "#PWR037" H 3800 5600 50  0001 C CNN
+F 1 "GND" H 3805 5677 50  0000 C CNN
+F 2 "" H 3800 5850 50  0001 C CNN
+F 3 "" H 3800 5850 50  0001 C CNN
+	1    3800 5850
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 5400 4650 5400
+	4200 5500 4150 5500
 Wire Wire Line
-	4650 5400 4650 5500
+	4150 5500 4150 5600
 Wire Wire Line
-	4650 5500 4700 5500
+	4150 5600 4100 5600
 Wire Wire Line
-	4650 5500 4600 5500
-Connection ~ 4650 5500
+	4150 5600 4200 5600
+Connection ~ 4150 5600
 Wire Wire Line
-	4300 5500 4250 5500
+	4500 5600 4550 5600
 Wire Wire Line
-	4250 5500 4250 5550
+	4550 5600 4550 5650
 Wire Wire Line
-	5000 5700 5000 5750
+	3800 5800 3800 5850
 Wire Wire Line
-	5000 5300 5400 5300
+	3800 5400 3400 5400
 Wire Wire Line
-	3950 5400 4300 5400
-Text Label 3950 5400 0    50   ~ 0
+	4850 5500 4500 5500
+Text Label 4850 5500 2    50   ~ 0
 PK1
-Text Label 5400 5300 2    50   ~ 0
+Text Label 3400 5400 0    50   ~ 0
 HOT
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q11
 U 1 1 5F06FBA1
-P 4900 6250
-F 0 "Q11" H 5088 6303 60  0000 L CNN
-F 1 "ZTX450" H 5088 6197 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 5100 6450 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 6550 60  0001 L CNN
-F 4 "ZTX450-ND" H 5100 6650 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 5100 6750 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5100 6850 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5100 6950 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 7050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5100 7150 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 5100 7250 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 5100 7350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 7450 60  0001 L CNN "Status"
-	1    4900 6250
-	1    0    0    -1  
+P 3900 6350
+F 0 "Q11" H 4088 6403 60  0000 L CNN
+F 1 "ZTX450" H 4088 6297 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 4100 6550 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 6650 60  0001 L CNN
+F 4 "ZTX450-ND" H 4100 6750 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 4100 6850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 6950 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4100 7050 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 7150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 4100 7250 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 4100 7350 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 7450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 7550 60  0001 L CNN "Status"
+	1    3900 6350
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR030
 U 1 1 5F06FBA7
-P 4250 6300
-F 0 "#PWR030" H 4250 6050 50  0001 C CNN
-F 1 "GND" H 4255 6127 50  0000 C CNN
-F 2 "" H 4250 6300 50  0001 C CNN
-F 3 "" H 4250 6300 50  0001 C CNN
-	1    4250 6300
-	1    0    0    -1  
+P 4550 6400
+F 0 "#PWR030" H 4550 6150 50  0001 C CNN
+F 1 "GND" H 4555 6227 50  0000 C CNN
+F 2 "" H 4550 6400 50  0001 C CNN
+F 3 "" H 4550 6400 50  0001 C CNN
+	1    4550 6400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR038
 U 1 1 5F06FBB9
-P 5000 6500
-F 0 "#PWR038" H 5000 6250 50  0001 C CNN
-F 1 "GND" H 5005 6327 50  0000 C CNN
-F 2 "" H 5000 6500 50  0001 C CNN
-F 3 "" H 5000 6500 50  0001 C CNN
-	1    5000 6500
-	1    0    0    -1  
+P 3800 6600
+F 0 "#PWR038" H 3800 6350 50  0001 C CNN
+F 1 "GND" H 3805 6427 50  0000 C CNN
+F 2 "" H 3800 6600 50  0001 C CNN
+F 3 "" H 3800 6600 50  0001 C CNN
+	1    3800 6600
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 6150 4650 6150
+	4200 6250 4150 6250
 Wire Wire Line
-	4650 6150 4650 6250
+	4150 6250 4150 6350
 Wire Wire Line
-	4650 6250 4700 6250
+	4150 6350 4100 6350
 Wire Wire Line
-	4650 6250 4600 6250
-Connection ~ 4650 6250
+	4150 6350 4200 6350
+Connection ~ 4150 6350
 Wire Wire Line
-	4300 6250 4250 6250
+	4500 6350 4550 6350
 Wire Wire Line
-	4250 6250 4250 6300
+	4550 6350 4550 6400
 Wire Wire Line
-	5000 6450 5000 6500
+	3800 6550 3800 6600
 Wire Wire Line
-	5000 6050 5400 6050
+	3800 6150 3400 6150
 Wire Wire Line
-	3950 6150 4300 6150
-Text Label 3950 6150 0    50   ~ 0
+	4850 6250 4500 6250
+Text Label 4850 6250 2    50   ~ 0
 PK2
-Text Label 5400 6050 2    50   ~ 0
+Text Label 3400 6150 0    50   ~ 0
 HET
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q18
 U 1 1 5F091430
-P 7050 4750
-F 0 "Q18" H 7238 4803 60  0000 L CNN
-F 1 "ZTX450" H 7238 4697 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 7250 4950 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7250 5050 60  0001 L CNN
-F 4 "ZTX450-ND" H 7250 5150 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 7250 5250 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7250 5350 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 7250 5450 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7250 5550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7250 5650 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 7250 5750 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 7250 5850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7250 5950 60  0001 L CNN "Status"
-	1    7050 4750
-	1    0    0    -1  
+P 5600 4900
+F 0 "Q18" H 5788 4953 60  0000 L CNN
+F 1 "ZTX450" H 5788 4847 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 5800 5100 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5800 5200 60  0001 L CNN
+F 4 "ZTX450-ND" H 5800 5300 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 5800 5400 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5800 5500 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5800 5600 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5800 5700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5800 5800 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 5800 5900 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 5800 6000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5800 6100 60  0001 L CNN "Status"
+	1    5600 4900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR045
 U 1 1 5F091436
-P 6400 4800
-F 0 "#PWR045" H 6400 4550 50  0001 C CNN
-F 1 "GND" H 6405 4627 50  0000 C CNN
-F 2 "" H 6400 4800 50  0001 C CNN
-F 3 "" H 6400 4800 50  0001 C CNN
-	1    6400 4800
-	1    0    0    -1  
+P 6250 4950
+F 0 "#PWR045" H 6250 4700 50  0001 C CNN
+F 1 "GND" H 6255 4777 50  0000 C CNN
+F 2 "" H 6250 4950 50  0001 C CNN
+F 3 "" H 6250 4950 50  0001 C CNN
+	1    6250 4950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR053
 U 1 1 5F091448
-P 7150 5000
-F 0 "#PWR053" H 7150 4750 50  0001 C CNN
-F 1 "GND" H 7155 4827 50  0000 C CNN
-F 2 "" H 7150 5000 50  0001 C CNN
-F 3 "" H 7150 5000 50  0001 C CNN
-	1    7150 5000
-	1    0    0    -1  
+P 5500 5150
+F 0 "#PWR053" H 5500 4900 50  0001 C CNN
+F 1 "GND" H 5505 4977 50  0000 C CNN
+F 2 "" H 5500 5150 50  0001 C CNN
+F 3 "" H 5500 5150 50  0001 C CNN
+	1    5500 5150
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 4650 6800 4650
+	5900 4800 5850 4800
 Wire Wire Line
-	6800 4650 6800 4750
+	5850 4800 5850 4900
 Wire Wire Line
-	6800 4750 6850 4750
+	5850 4900 5800 4900
 Wire Wire Line
-	6800 4750 6750 4750
-Connection ~ 6800 4750
+	5850 4900 5900 4900
+Connection ~ 5850 4900
 Wire Wire Line
-	6450 4750 6400 4750
+	6200 4900 6250 4900
 Wire Wire Line
-	6400 4750 6400 4800
+	6250 4900 6250 4950
 Wire Wire Line
-	7150 4950 7150 5000
+	5500 5100 5500 5150
 Wire Wire Line
-	7150 4550 7550 4550
+	5500 4700 5100 4700
 Wire Wire Line
-	6100 4650 6450 4650
-Text Label 6100 4650 0    50   ~ 0
+	6550 4800 6200 4800
+Text Label 6550 4800 2    50   ~ 0
 PK4
-Text Label 7550 4550 2    50   ~ 0
+Text Label 5100 4700 0    50   ~ 0
 HFT
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q19
 U 1 1 5F091463
-P 7050 5500
-F 0 "Q19" H 7238 5553 60  0000 L CNN
-F 1 "ZTX450" H 7238 5447 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 7250 5700 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7250 5800 60  0001 L CNN
-F 4 "ZTX450-ND" H 7250 5900 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 7250 6000 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7250 6100 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 7250 6200 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7250 6300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7250 6400 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 7250 6500 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 7250 6600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7250 6700 60  0001 L CNN "Status"
-	1    7050 5500
-	1    0    0    -1  
+P 5600 5650
+F 0 "Q19" H 5788 5703 60  0000 L CNN
+F 1 "ZTX450" H 5788 5597 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 5800 5850 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5800 5950 60  0001 L CNN
+F 4 "ZTX450-ND" H 5800 6050 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 5800 6150 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5800 6250 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5800 6350 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5800 6450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5800 6550 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 5800 6650 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 5800 6750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5800 6850 60  0001 L CNN "Status"
+	1    5600 5650
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR046
 U 1 1 5F091469
-P 6400 5550
-F 0 "#PWR046" H 6400 5300 50  0001 C CNN
-F 1 "GND" H 6405 5377 50  0000 C CNN
-F 2 "" H 6400 5550 50  0001 C CNN
-F 3 "" H 6400 5550 50  0001 C CNN
-	1    6400 5550
-	1    0    0    -1  
+P 6250 5700
+F 0 "#PWR046" H 6250 5450 50  0001 C CNN
+F 1 "GND" H 6255 5527 50  0000 C CNN
+F 2 "" H 6250 5700 50  0001 C CNN
+F 3 "" H 6250 5700 50  0001 C CNN
+	1    6250 5700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR054
 U 1 1 5F09147B
-P 7150 5750
-F 0 "#PWR054" H 7150 5500 50  0001 C CNN
-F 1 "GND" H 7155 5577 50  0000 C CNN
-F 2 "" H 7150 5750 50  0001 C CNN
-F 3 "" H 7150 5750 50  0001 C CNN
-	1    7150 5750
-	1    0    0    -1  
+P 5500 5900
+F 0 "#PWR054" H 5500 5650 50  0001 C CNN
+F 1 "GND" H 5505 5727 50  0000 C CNN
+F 2 "" H 5500 5900 50  0001 C CNN
+F 3 "" H 5500 5900 50  0001 C CNN
+	1    5500 5900
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 5400 6800 5400
+	5900 5550 5850 5550
 Wire Wire Line
-	6800 5400 6800 5500
+	5850 5550 5850 5650
 Wire Wire Line
-	6800 5500 6850 5500
+	5850 5650 5800 5650
 Wire Wire Line
-	6800 5500 6750 5500
-Connection ~ 6800 5500
+	5850 5650 5900 5650
+Connection ~ 5850 5650
 Wire Wire Line
-	6450 5500 6400 5500
+	6200 5650 6250 5650
 Wire Wire Line
-	6400 5500 6400 5550
+	6250 5650 6250 5700
 Wire Wire Line
-	7150 5700 7150 5750
+	5500 5850 5500 5900
 Wire Wire Line
-	7150 5300 7550 5300
+	5500 5450 5100 5450
 Wire Wire Line
-	6100 5400 6450 5400
-Text Label 6100 5400 0    50   ~ 0
+	6550 5550 6200 5550
+Text Label 6550 5550 2    50   ~ 0
 PK5
-Text Label 7550 5300 2    50   ~ 0
+Text Label 5100 5450 0    50   ~ 0
 LFP
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q20
 U 1 1 5F091496
-P 7050 6250
-F 0 "Q20" H 7238 6303 60  0000 L CNN
-F 1 "ZTX450" H 7238 6197 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 7250 6450 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7250 6550 60  0001 L CNN
-F 4 "ZTX450-ND" H 7250 6650 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 7250 6750 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7250 6850 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 7250 6950 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 7250 7050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 7250 7150 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 7250 7250 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 7250 7350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7250 7450 60  0001 L CNN "Status"
-	1    7050 6250
-	1    0    0    -1  
+P 5600 6400
+F 0 "Q20" H 5788 6453 60  0000 L CNN
+F 1 "ZTX450" H 5788 6347 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 5800 6600 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5800 6700 60  0001 L CNN
+F 4 "ZTX450-ND" H 5800 6800 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 5800 6900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5800 7000 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5800 7100 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5800 7200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5800 7300 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 5800 7400 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 5800 7500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5800 7600 60  0001 L CNN "Status"
+	1    5600 6400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR047
 U 1 1 5F09149C
-P 6400 6300
-F 0 "#PWR047" H 6400 6050 50  0001 C CNN
-F 1 "GND" H 6405 6127 50  0000 C CNN
-F 2 "" H 6400 6300 50  0001 C CNN
-F 3 "" H 6400 6300 50  0001 C CNN
-	1    6400 6300
-	1    0    0    -1  
+P 6250 6450
+F 0 "#PWR047" H 6250 6200 50  0001 C CNN
+F 1 "GND" H 6255 6277 50  0000 C CNN
+F 2 "" H 6250 6450 50  0001 C CNN
+F 3 "" H 6250 6450 50  0001 C CNN
+	1    6250 6450
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR055
 U 1 1 5F0914AE
-P 7150 6500
-F 0 "#PWR055" H 7150 6250 50  0001 C CNN
-F 1 "GND" H 7155 6327 50  0000 C CNN
-F 2 "" H 7150 6500 50  0001 C CNN
-F 3 "" H 7150 6500 50  0001 C CNN
-	1    7150 6500
-	1    0    0    -1  
+P 5500 6650
+F 0 "#PWR055" H 5500 6400 50  0001 C CNN
+F 1 "GND" H 5505 6477 50  0000 C CNN
+F 2 "" H 5500 6650 50  0001 C CNN
+F 3 "" H 5500 6650 50  0001 C CNN
+	1    5500 6650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 6150 6800 6150
+	5900 6300 5850 6300
 Wire Wire Line
-	6800 6150 6800 6250
+	5850 6300 5850 6400
 Wire Wire Line
-	6800 6250 6850 6250
+	5850 6400 5800 6400
 Wire Wire Line
-	6800 6250 6750 6250
-Connection ~ 6800 6250
+	5850 6400 5900 6400
+Connection ~ 5850 6400
 Wire Wire Line
-	6450 6250 6400 6250
+	6200 6400 6250 6400
 Wire Wire Line
-	6400 6250 6400 6300
+	6250 6400 6250 6450
 Wire Wire Line
-	7150 6450 7150 6500
+	5500 6600 5500 6650
 Wire Wire Line
-	7150 6050 7550 6050
+	5500 6200 5100 6200
 Wire Wire Line
-	6100 6150 6450 6150
-Text Label 6100 6150 0    50   ~ 0
+	6550 6300 6200 6300
+Text Label 6550 6300 2    50   ~ 0
 PK7
-Text Label 7550 6050 2    50   ~ 0
+Text Label 5100 6200 0    50   ~ 0
 HFP
-Text Label 8250 4850 0    50   ~ 0
+Text Label 1600 3750 2    50   ~ 0
 FP
-Text Label 8250 4950 0    50   ~ 0
+Text Label 1600 3850 2    50   ~ 0
 ASD
-Text Label 8250 5050 0    50   ~ 0
+Text Label 1600 3950 2    50   ~ 0
 Alarm
-Text Label 8250 5150 0    50   ~ 0
+Text Label 1600 4050 2    50   ~ 0
 AIOT
-Text Label 8250 5250 0    50   ~ 0
+Text Label 1600 4150 2    50   ~ 0
 PB4out
-Text Label 8250 5350 0    50   ~ 0
+Text Label 1600 4250 2    50   ~ 0
 PP5out
-Text Label 8250 5450 0    50   ~ 0
+Text Label 1600 4350 2    50   ~ 0
 LOP
-Text Label 8250 5550 0    50   ~ 0
+Text Label 1600 4450 2    50   ~ 0
 HOT
-Text Label 8250 5650 0    50   ~ 0
+Text Label 1600 4550 2    50   ~ 0
 HET
-Text Label 8250 5750 0    50   ~ 0
+Text Label 1600 4650 2    50   ~ 0
 HEGT
-Text Label 8250 5850 0    50   ~ 0
+Text Label 1600 4750 2    50   ~ 0
 HFT
-Text Label 8250 5950 0    50   ~ 0
+Text Label 1600 4850 2    50   ~ 0
 LFP
-Text Label 8250 6050 0    50   ~ 0
+Text Label 1600 4950 2    50   ~ 0
 HFP
 Wire Wire Line
-	8600 6050 8250 6050
+	1250 4950 1600 4950
 Wire Wire Line
-	8600 5950 8250 5950
+	1250 4850 1600 4850
 Wire Wire Line
-	8600 5850 8250 5850
+	1250 4750 1600 4750
 Wire Wire Line
-	8600 5750 8250 5750
+	1250 4650 1600 4650
 Wire Wire Line
-	8600 4850 8250 4850
+	1250 3750 1600 3750
 Wire Wire Line
-	8600 4950 8250 4950
+	1250 3850 1600 3850
 Wire Wire Line
-	8600 5050 8250 5050
+	1250 3950 1600 3950
 Wire Wire Line
-	8600 5150 8250 5150
+	1250 4050 1600 4050
 Wire Wire Line
-	8600 5250 8250 5250
+	1250 4150 1600 4150
 Wire Wire Line
-	8600 5350 8250 5350
+	1250 4250 1600 4250
 Wire Wire Line
-	8600 5450 8250 5450
+	1250 4350 1600 4350
 Wire Wire Line
-	8600 5550 8250 5550
+	1250 4450 1600 4450
 Wire Wire Line
-	8600 5650 8250 5650
+	1250 4550 1600 4550
 Text Notes 1000 1250 0    50   ~ 0
 Bat -\n
 Text Notes 1000 1100 0    50   ~ 0
@@ -2278,164 +2164,160 @@ Bat +
 $Comp
 L Connector_Generic:Conn_02x18_Odd_Even J2
 U 1 1 5F072890
-P 1150 3900
-F 0 "J2" H 1200 4850 50  0000 C CNN
-F 1 "Conn_02x18_Odd_Even" H 1200 2750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 1150 3900 50  0001 C CNN
-F 3 "~" H 1150 3900 50  0001 C CNN
-F 4 "" H 1150 3900 50  0001 C CNN "Mfg"
-F 5 "" H 1150 3900 50  0001 C CNN "Digikey"
-	1    1150 3900
-	1    0    0    -1  
+P 5900 2700
+F 0 "J2" H 5950 3650 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 5950 1550 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x18_P2.54mm_Vertical" H 5900 2700 50  0001 C CNN
+F 3 "~" H 5900 2700 50  0001 C CNN
+F 4 "" H 5900 2700 50  0001 C CNN "Mfg"
+F 5 "" H 5900 2700 50  0001 C CNN "Digikey"
+	1    5900 2700
+	-1   0    0    -1  
 $EndComp
-NoConn ~ 1450 4300
-NoConn ~ 1450 4200
 Wire Wire Line
-	1450 4100 1650 4100
-Wire Wire Line
-	950  4100 750  4100
-Text Label 950  4100 2    50   ~ 0
+	6100 2900 6300 2900
+Text Label 6250 3200 2    50   ~ 0
 PB5
-Text Label 1600 4100 2    50   ~ 0
+Text Label 6250 3300 2    50   ~ 0
 PB6
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q8
 U 1 1 5F248EE3
-P 4900 4000
-F 0 "Q8" H 5088 4053 60  0000 L CNN
-F 1 "ZTX450" H 5088 3947 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 5100 4200 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 4300 60  0001 L CNN
-F 4 "ZTX450-ND" H 5100 4400 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 5100 4500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5100 4600 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5100 4700 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 4800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5100 4900 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 5100 5000 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 5100 5100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 5200 60  0001 L CNN "Status"
-	1    4900 4000
-	1    0    0    -1  
+P 3900 4100
+F 0 "Q8" H 4088 4153 60  0000 L CNN
+F 1 "ZTX450" H 4088 4047 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 4100 4300 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 4400 60  0001 L CNN
+F 4 "ZTX450-ND" H 4100 4500 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 4100 4600 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 4700 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4100 4800 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 4900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 4100 5000 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 4100 5100 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 5200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 5300 60  0001 L CNN "Status"
+	1    3900 4100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR027
 U 1 1 5F248EE9
-P 4250 4050
-F 0 "#PWR027" H 4250 3800 50  0001 C CNN
-F 1 "GND" H 4255 3877 50  0000 C CNN
-F 2 "" H 4250 4050 50  0001 C CNN
-F 3 "" H 4250 4050 50  0001 C CNN
-	1    4250 4050
-	1    0    0    -1  
+P 4550 4150
+F 0 "#PWR027" H 4550 3900 50  0001 C CNN
+F 1 "GND" H 4555 3977 50  0000 C CNN
+F 2 "" H 4550 4150 50  0001 C CNN
+F 3 "" H 4550 4150 50  0001 C CNN
+	1    4550 4150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR035
 U 1 1 5F248EFB
-P 5000 4250
-F 0 "#PWR035" H 5000 4000 50  0001 C CNN
-F 1 "GND" H 5005 4077 50  0000 C CNN
-F 2 "" H 5000 4250 50  0001 C CNN
-F 3 "" H 5000 4250 50  0001 C CNN
-	1    5000 4250
-	1    0    0    -1  
+P 3800 4350
+F 0 "#PWR035" H 3800 4100 50  0001 C CNN
+F 1 "GND" H 3805 4177 50  0000 C CNN
+F 2 "" H 3800 4350 50  0001 C CNN
+F 3 "" H 3800 4350 50  0001 C CNN
+	1    3800 4350
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 3900 4650 3900
+	4200 4000 4150 4000
 Wire Wire Line
-	4650 3900 4650 4000
+	4150 4000 4150 4100
 Wire Wire Line
-	4650 4000 4700 4000
+	4150 4100 4100 4100
 Wire Wire Line
-	4650 4000 4600 4000
-Connection ~ 4650 4000
+	4150 4100 4200 4100
+Connection ~ 4150 4100
 Wire Wire Line
-	4300 4000 4250 4000
+	4500 4100 4550 4100
 Wire Wire Line
-	4250 4000 4250 4050
+	4550 4100 4550 4150
 Wire Wire Line
-	5000 4200 5000 4250
+	3800 4300 3800 4350
 Wire Wire Line
-	5000 3800 5400 3800
+	3800 3900 3400 3900
 Wire Wire Line
-	3950 3900 4300 3900
-Text Label 3950 3900 0    50   ~ 0
+	4850 4000 4500 4000
+Text Label 4850 4000 2    50   ~ 0
 PB6
-Text Label 5400 3800 2    50   ~ 0
+Text Label 3400 3900 0    50   ~ 0
 PB6out
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q7
 U 1 1 5F248F16
-P 4900 3250
-F 0 "Q7" H 5088 3303 60  0000 L CNN
-F 1 "ZTX450" H 5088 3197 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 5100 3450 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 3550 60  0001 L CNN
-F 4 "ZTX450-ND" H 5100 3650 60  0001 L CNN "Digi-Key_PN"
-F 5 "ZTX450" H 5100 3750 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5100 3850 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5100 3950 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 5100 4050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 5100 4150 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 1A E-LINE" H 5100 4250 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 5100 4350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 4450 60  0001 L CNN "Status"
-	1    4900 3250
-	1    0    0    -1  
+P 3900 3350
+F 0 "Q7" H 4088 3403 60  0000 L CNN
+F 1 "ZTX450" H 4088 3297 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 4100 3550 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 3650 60  0001 L CNN
+F 4 "ZTX450-ND" H 4100 3750 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 4100 3850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 3950 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4100 4050 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 4100 4150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 4100 4250 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 4100 4350 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 4450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 4550 60  0001 L CNN "Status"
+	1    3900 3350
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5F248F1C
-P 4250 3300
-F 0 "#PWR026" H 4250 3050 50  0001 C CNN
-F 1 "GND" H 4255 3127 50  0000 C CNN
-F 2 "" H 4250 3300 50  0001 C CNN
-F 3 "" H 4250 3300 50  0001 C CNN
-	1    4250 3300
-	1    0    0    -1  
+P 4550 3400
+F 0 "#PWR026" H 4550 3150 50  0001 C CNN
+F 1 "GND" H 4555 3227 50  0000 C CNN
+F 2 "" H 4550 3400 50  0001 C CNN
+F 3 "" H 4550 3400 50  0001 C CNN
+	1    4550 3400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 5F248F2E
-P 5000 3500
-F 0 "#PWR034" H 5000 3250 50  0001 C CNN
-F 1 "GND" H 5005 3327 50  0000 C CNN
-F 2 "" H 5000 3500 50  0001 C CNN
-F 3 "" H 5000 3500 50  0001 C CNN
-	1    5000 3500
-	1    0    0    -1  
+P 3800 3600
+F 0 "#PWR034" H 3800 3350 50  0001 C CNN
+F 1 "GND" H 3805 3427 50  0000 C CNN
+F 2 "" H 3800 3600 50  0001 C CNN
+F 3 "" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 3150 4650 3150
+	4200 3250 4150 3250
 Wire Wire Line
-	4650 3150 4650 3250
+	4150 3250 4150 3350
 Wire Wire Line
-	4650 3250 4700 3250
+	4150 3350 4100 3350
 Wire Wire Line
-	4650 3250 4600 3250
-Connection ~ 4650 3250
+	4150 3350 4200 3350
+Connection ~ 4150 3350
 Wire Wire Line
-	4300 3250 4250 3250
+	4500 3350 4550 3350
 Wire Wire Line
-	4250 3250 4250 3300
+	4550 3350 4550 3400
 Wire Wire Line
-	5000 3450 5000 3500
+	3800 3550 3800 3600
 Wire Wire Line
-	5000 3050 5400 3050
+	3800 3150 3400 3150
 Wire Wire Line
-	3950 3150 4300 3150
-Text Label 3950 3150 0    50   ~ 0
+	4850 3250 4500 3250
+Text Label 4850 3250 2    50   ~ 0
 PB5
-Text Label 5400 3050 2    50   ~ 0
+Text Label 3400 3150 0    50   ~ 0
 PB5out
-Text Label 8250 6150 0    50   ~ 0
+Text Label 1600 5050 2    50   ~ 0
 PB5out
-Text Label 8250 6250 0    50   ~ 0
+Text Label 1600 5150 2    50   ~ 0
 PB6out
 Wire Wire Line
-	8600 6150 8250 6150
+	1250 5050 1600 5050
 Wire Wire Line
-	8600 6250 8250 6250
+	1250 5150 1600 5150
 $Comp
 L Device:CP1 C8
 U 1 1 5F44930F
@@ -2502,14 +2384,14 @@ Connection ~ 4100 1450
 $Comp
 L Connector:DB15_Female J4
 U 1 1 5FA5D15D
-P 9750 2350
-F 0 "J4" H 9904 2396 50  0000 L CNN
-F 1 "DB15_Female" V 10050 2200 50  0000 L CNN
-F 2 "digikey-footprints:DB15FC" H 9750 2350 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/c01-8646-0823.pdf?__cf_chl_jschl_tk__=52e343483256d734238c8f5f8e0ffb36590a1620-1593192236-0-AfAKE4f8IVdiA3f8LTMpzZCZ4Xh-2ZWejyK9U1oeF2PLIfvyJQet3yAoZsr92TGTZm-pyA-RAJ95pDtBa6ERBwzne-l1_kpI0CR5U7FgJIsB9M8VPGqzfYAnCoLJIWJ1VuMYrw22wDQpT5UlZfIZ4cCE4h_0W6W82ejf1shp5xb7dQyWksSO6BYVUbY9p9bB9Rldj8JI9gP3MwqKYfpmHouwIPlrMnXrEDpwSfXTmoZ7w5T5WQCjOKqKaHIdMWy9o8MvGRMFTXDc_Eq3VavT8lXIQN8n4nMLgkQHOr0qkgXf6TzmJNS-tWyrUVeBvCyCGjQXCFboM8Ur57Vxlap56NgFqRbZrIqZlZs7aW2uZxlM5RUNLwaEvP4EIpUo6ZP10Cx_jIFDHQ0NuPBJ1artnOo" H 9750 2350 50  0001 C CNN
-F 4 "D15S33E4GX00LF" H 9750 2350 50  0001 C CNN "Mfg"
-F 5 "609-1499-ND" H 9750 2350 50  0001 C CNN "Digikey"
-	1    9750 2350
+P 10050 5200
+F 0 "J4" H 10204 5246 50  0000 L CNN
+F 1 "DB15_Female" V 10350 5050 50  0000 L CNN
+F 2 "digikey-footprints:DB15FC" H 10050 5200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747845&DocType=Customer+Drawing&DocLang=English" H 10050 5200 50  0001 C CNN
+F 4 "5747845-6" H 10050 5200 50  0001 C CNN "Mfg"
+F 5 "A32123-ND" H 10050 5200 50  0001 C CNN "Digikey"
+	1    10050 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2652,653 +2534,799 @@ F 5 "399-3596-ND" H 4400 2400 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
-U 1 1 5EF9AD63
-P 2700 3150
-F 0 "R1" V 2600 3150 40  0000 C CNN
-F 1 "1K" V 2700 3150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 3150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2700 3150 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 2700 3150 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 2700 3150 50  0001 C CNN "Digikey"
-	1    2700 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5EFC270A
-P 2700 3250
-F 0 "R2" V 2800 3250 40  0000 C CNN
-F 1 "100K" V 2700 3250 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 3250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2700 3250 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 2700 3250 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 2700 3250 50  0001 C CNN "Digikey"
-	1    2700 3250
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 5EF9DC38
-P 2700 3900
-F 0 "R3" V 2600 3900 40  0000 C CNN
-F 1 "1K" V 2700 3900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 3900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2700 3900 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 2700 3900 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 2700 3900 50  0001 C CNN "Digikey"
-	1    2700 3900
-	0    1    1    0   
+P 2800 4000
+F 0 "R3" V 2700 4000 40  0000 C CNN
+F 1 "1K" V 2800 4000 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 4000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2800 4000 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 2800 4000 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 2800 4000 50  0001 C CNN "Digikey"
+	1    2800 4000
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 5EF9E1BF
-P 2700 4650
-F 0 "R5" V 2600 4650 40  0000 C CNN
-F 1 "1K" V 2700 4650 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2700 4650 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 2700 4650 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 2700 4650 50  0001 C CNN "Digikey"
-	1    2700 4650
-	0    1    1    0   
+P 2800 4750
+F 0 "R5" V 2700 4750 40  0000 C CNN
+F 1 "1K" V 2800 4750 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 4750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2800 4750 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 2800 4750 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 2800 4750 50  0001 C CNN "Digikey"
+	1    2800 4750
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 5EF9E7D9
-P 2700 5400
-F 0 "R7" V 2600 5400 40  0000 C CNN
-F 1 "1K" V 2700 5400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 5400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2700 5400 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 2700 5400 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 2700 5400 50  0001 C CNN "Digikey"
-	1    2700 5400
-	0    1    1    0   
+P 2800 5500
+F 0 "R7" V 2700 5500 40  0000 C CNN
+F 1 "1K" V 2800 5500 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 5500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2800 5500 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 2800 5500 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 2800 5500 50  0001 C CNN "Digikey"
+	1    2800 5500
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 5EF9EC54
-P 2700 6150
-F 0 "R9" V 2600 6150 40  0000 C CNN
-F 1 "1K" V 2700 6150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 6150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2700 6150 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 2700 6150 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 2700 6150 50  0001 C CNN "Digikey"
-	1    2700 6150
-	0    1    1    0   
+P 2800 6250
+F 0 "R9" V 2700 6250 40  0000 C CNN
+F 1 "1K" V 2800 6250 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 6250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2800 6250 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 2800 6250 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 2800 6250 50  0001 C CNN "Digikey"
+	1    2800 6250
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 5EF9F10C
-P 2700 6900
-F 0 "R11" V 2600 6900 40  0000 C CNN
-F 1 "1K" V 2700 6900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 6900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2700 6900 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 2700 6900 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 2700 6900 50  0001 C CNN "Digikey"
-	1    2700 6900
-	0    1    1    0   
+P 2800 7000
+F 0 "R11" V 2700 7000 40  0000 C CNN
+F 1 "1K" V 2800 7000 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 7000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2800 7000 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 2800 7000 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 2800 7000 50  0001 C CNN "Digikey"
+	1    2800 7000
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R23
 U 1 1 5EF9F6F4
-P 4450 6900
-F 0 "R23" V 4350 6900 40  0000 C CNN
-F 1 "1K" V 4450 6900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 6900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4450 6900 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 4450 6900 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 4450 6900 50  0001 C CNN "Digikey"
-	1    4450 6900
-	0    1    1    0   
+P 4350 7000
+F 0 "R23" V 4250 7000 40  0000 C CNN
+F 1 "1K" V 4350 7000 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 7000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4350 7000 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 4350 7000 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 4350 7000 50  0001 C CNN "Digikey"
+	1    4350 7000
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R21
 U 1 1 5EF9FC15
-P 4450 6150
-F 0 "R21" V 4350 6150 40  0000 C CNN
-F 1 "1K" V 4450 6150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 6150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4450 6150 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 4450 6150 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 4450 6150 50  0001 C CNN "Digikey"
-	1    4450 6150
-	0    1    1    0   
+P 4350 6250
+F 0 "R21" V 4250 6250 40  0000 C CNN
+F 1 "1K" V 4350 6250 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 6250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4350 6250 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 4350 6250 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 4350 6250 50  0001 C CNN "Digikey"
+	1    4350 6250
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R19
 U 1 1 5EFA00D5
-P 4450 5400
-F 0 "R19" V 4350 5400 40  0000 C CNN
-F 1 "1K" V 4450 5400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 5400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4450 5400 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 4450 5400 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 4450 5400 50  0001 C CNN "Digikey"
-	1    4450 5400
-	0    1    1    0   
+P 4350 5500
+F 0 "R19" V 4250 5500 40  0000 C CNN
+F 1 "1K" V 4350 5500 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 5500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4350 5500 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 4350 5500 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 4350 5500 50  0001 C CNN "Digikey"
+	1    4350 5500
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R17
 U 1 1 5EFA0619
-P 4450 4650
-F 0 "R17" V 4350 4650 40  0000 C CNN
-F 1 "1K" V 4450 4650 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4450 4650 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 4450 4650 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 4450 4650 50  0001 C CNN "Digikey"
-	1    4450 4650
-	0    1    1    0   
+P 4350 4750
+F 0 "R17" V 4250 4750 40  0000 C CNN
+F 1 "1K" V 4350 4750 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 4750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4350 4750 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 4350 4750 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 4350 4750 50  0001 C CNN "Digikey"
+	1    4350 4750
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R15
 U 1 1 5EFA0B15
-P 4450 3900
-F 0 "R15" V 4350 3900 40  0000 C CNN
-F 1 "1K" V 4450 3900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 3900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4450 3900 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 4450 3900 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 4450 3900 50  0001 C CNN "Digikey"
-	1    4450 3900
-	0    1    1    0   
+P 4350 4000
+F 0 "R15" V 4250 4000 40  0000 C CNN
+F 1 "1K" V 4350 4000 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 4000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4350 4000 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 4350 4000 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 4350 4000 50  0001 C CNN "Digikey"
+	1    4350 4000
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5EFA113B
-P 4450 3150
-F 0 "R13" V 4350 3150 40  0000 C CNN
-F 1 "1K" V 4450 3150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 3150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4450 3150 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 4450 3150 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 4450 3150 50  0001 C CNN "Digikey"
-	1    4450 3150
-	0    1    1    0   
+P 4350 3250
+F 0 "R13" V 4250 3250 40  0000 C CNN
+F 1 "1K" V 4350 3250 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 4350 3250 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 4350 3250 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 4350 3250 50  0001 C CNN "Digikey"
+	1    4350 3250
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R25
 U 1 1 5EFA15E9
-P 6150 800
-F 0 "R25" V 6050 800 40  0000 C CNN
-F 1 "1K" V 6150 800 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 800 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6150 800 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6150 800 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6150 800 50  0001 C CNN "Digikey"
-	1    6150 800 
+P 7200 850
+F 0 "R25" V 7100 850 40  0000 C CNN
+F 1 "1K" V 7200 850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7200 850 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 7200 850 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 7200 850 50  0001 C CNN "Digikey"
+	1    7200 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R41
 U 1 1 5EFA2A05
-P 7800 800
-F 0 "R41" V 7700 800 40  0000 C CNN
-F 1 "1K" V 7800 800 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 800 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7800 800 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 7800 800 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 7800 800 50  0001 C CNN "Digikey"
-	1    7800 800 
+P 8850 850
+F 0 "R41" V 8750 850 40  0000 C CNN
+F 1 "1K" V 8850 850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 8850 850 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 8850 850 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 8850 850 50  0001 C CNN "Digikey"
+	1    8850 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R43
 U 1 1 5EFA3251
-P 7800 1550
-F 0 "R43" V 7700 1550 40  0000 C CNN
-F 1 "1K" V 7800 1550 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 1550 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7800 1550 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 7800 1550 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 7800 1550 50  0001 C CNN "Digikey"
-	1    7800 1550
+P 8850 1600
+F 0 "R43" V 8750 1600 40  0000 C CNN
+F 1 "1K" V 8850 1600 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 1600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 8850 1600 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 8850 1600 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 8850 1600 50  0001 C CNN "Digikey"
+	1    8850 1600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R27
 U 1 1 5EFA370E
-P 6150 1550
-F 0 "R27" V 6050 1550 40  0000 C CNN
-F 1 "1K" V 6150 1550 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 1550 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6150 1550 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6150 1550 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6150 1550 50  0001 C CNN "Digikey"
-	1    6150 1550
+P 7200 1600
+F 0 "R27" V 7100 1600 40  0000 C CNN
+F 1 "1K" V 7200 1600 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 1600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7200 1600 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 7200 1600 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 7200 1600 50  0001 C CNN "Digikey"
+	1    7200 1600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R29
 U 1 1 5EFA3C57
-P 6150 2300
-F 0 "R29" V 6050 2300 40  0000 C CNN
-F 1 "1K" V 6150 2300 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 2300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6150 2300 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6150 2300 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6150 2300 50  0001 C CNN "Digikey"
-	1    6150 2300
+P 7200 2350
+F 0 "R29" V 7100 2350 40  0000 C CNN
+F 1 "1K" V 7200 2350 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 2350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7200 2350 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 7200 2350 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 7200 2350 50  0001 C CNN "Digikey"
+	1    7200 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R45
 U 1 1 5EFA4204
-P 7800 2300
-F 0 "R45" V 7700 2300 40  0000 C CNN
-F 1 "1K" V 7800 2300 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 2300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7800 2300 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 7800 2300 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 7800 2300 50  0001 C CNN "Digikey"
-	1    7800 2300
+P 8850 2350
+F 0 "R45" V 8750 2350 40  0000 C CNN
+F 1 "1K" V 8850 2350 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 2350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 8850 2350 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 8850 2350 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 8850 2350 50  0001 C CNN "Digikey"
+	1    8850 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R47
 U 1 1 5EFA473C
-P 7800 3050
-F 0 "R47" V 7700 3050 40  0000 C CNN
-F 1 "1K" V 7800 3050 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 3050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7800 3050 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 7800 3050 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 7800 3050 50  0001 C CNN "Digikey"
-	1    7800 3050
+P 8850 3100
+F 0 "R47" V 8750 3100 40  0000 C CNN
+F 1 "1K" V 8850 3100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 8850 3100 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 8850 3100 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 8850 3100 50  0001 C CNN "Digikey"
+	1    8850 3100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R31
 U 1 1 5EFA4C9E
-P 6150 3050
-F 0 "R31" V 6050 3050 40  0000 C CNN
-F 1 "1K" V 6150 3050 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6150 3050 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6150 3050 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6150 3050 50  0001 C CNN "Digikey"
-	1    6150 3050
+P 7200 3100
+F 0 "R31" V 7100 3100 40  0000 C CNN
+F 1 "1K" V 7200 3100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7200 3100 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 7200 3100 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 7200 3100 50  0001 C CNN "Digikey"
+	1    7200 3100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R49
 U 1 1 5EFA51D4
-P 7800 3800
-F 0 "R49" V 7700 3800 40  0000 C CNN
-F 1 "1K" V 7800 3800 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 3800 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7800 3800 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 7800 3800 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 7800 3800 50  0001 C CNN "Digikey"
-	1    7800 3800
+P 8850 3850
+F 0 "R49" V 8750 3850 40  0000 C CNN
+F 1 "1K" V 8850 3850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 3850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 8850 3850 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 8850 3850 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 8850 3850 50  0001 C CNN "Digikey"
+	1    8850 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R33
 U 1 1 5EFA61F8
-P 6150 3800
-F 0 "R33" V 6050 3800 40  0000 C CNN
-F 1 "1K" V 6150 3800 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3800 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6150 3800 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6150 3800 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6150 3800 50  0001 C CNN "Digikey"
-	1    6150 3800
+P 7200 3850
+F 0 "R33" V 7100 3850 40  0000 C CNN
+F 1 "1K" V 7200 3850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 3850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 7200 3850 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 7200 3850 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 7200 3850 50  0001 C CNN "Digikey"
+	1    7200 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R35
 U 1 1 5EFA68C6
-P 6600 4650
-F 0 "R35" V 6500 4650 40  0000 C CNN
-F 1 "1K" V 6600 4650 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6600 4650 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6600 4650 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6600 4650 50  0001 C CNN "Digikey"
-	1    6600 4650
-	0    1    1    0   
+P 6050 4800
+F 0 "R35" V 5950 4800 40  0000 C CNN
+F 1 "1K" V 6050 4800 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 4800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6050 4800 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 6050 4800 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 6050 4800 50  0001 C CNN "Digikey"
+	1    6050 4800
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R37
 U 1 1 5EFA6FF8
-P 6600 5400
-F 0 "R37" V 6500 5400 40  0000 C CNN
-F 1 "1K" V 6600 5400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 5400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6600 5400 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6600 5400 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6600 5400 50  0001 C CNN "Digikey"
-	1    6600 5400
-	0    1    1    0   
+P 6050 5550
+F 0 "R37" V 5950 5550 40  0000 C CNN
+F 1 "1K" V 6050 5550 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 5550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6050 5550 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 6050 5550 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 6050 5550 50  0001 C CNN "Digikey"
+	1    6050 5550
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R39
 U 1 1 5EFA7465
-P 6600 6150
-F 0 "R39" V 6500 6150 40  0000 C CNN
-F 1 "1K" V 6600 6150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 6150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6600 6150 50  0001 C CNN
-F 4 "CFR-25JB-52-1K" V 6600 6150 50  0001 C CNN "Mfg"
-F 5 "1.00KXBK-ND" V 6600 6150 50  0001 C CNN "Digikey"
-	1    6600 6150
-	0    1    1    0   
+P 6050 6300
+F 0 "R39" V 5950 6300 40  0000 C CNN
+F 1 "1K" V 6050 6300 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 6300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 6050 6300 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 6050 6300 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 6050 6300 50  0001 C CNN "Digikey"
+	1    6050 6300
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5EFA7954
-P 2700 4000
-F 0 "R4" V 2800 4000 40  0000 C CNN
-F 1 "100K" V 2700 4000 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 4000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2700 4000 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 2700 4000 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 2700 4000 50  0001 C CNN "Digikey"
-	1    2700 4000
-	0    1    1    0   
+P 2800 4100
+F 0 "R4" V 2900 4100 40  0000 C CNN
+F 1 "100K" V 2800 4100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 4100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2800 4100 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 2800 4100 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 2800 4100 50  0001 C CNN "Digikey"
+	1    2800 4100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R14
 U 1 1 5EFA8493
-P 4450 3250
-F 0 "R14" V 4550 3250 40  0000 C CNN
-F 1 "100K" V 4450 3250 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 3250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4450 3250 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 4450 3250 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 4450 3250 50  0001 C CNN "Digikey"
-	1    4450 3250
-	0    1    1    0   
+P 4350 3350
+F 0 "R14" V 4450 3350 40  0000 C CNN
+F 1 "100K" V 4350 3350 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 3350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4350 3350 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 4350 3350 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 4350 3350 50  0001 C CNN "Digikey"
+	1    4350 3350
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R16
 U 1 1 5EFA8A31
-P 4450 4000
-F 0 "R16" V 4550 4000 40  0000 C CNN
-F 1 "100K" V 4450 4000 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 4000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4450 4000 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 4450 4000 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 4450 4000 50  0001 C CNN "Digikey"
-	1    4450 4000
-	0    1    1    0   
+P 4350 4100
+F 0 "R16" V 4450 4100 40  0000 C CNN
+F 1 "100K" V 4350 4100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 4100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4350 4100 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 4350 4100 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 4350 4100 50  0001 C CNN "Digikey"
+	1    4350 4100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R18
 U 1 1 5EFA8E44
-P 4450 4750
-F 0 "R18" V 4550 4750 40  0000 C CNN
-F 1 "100K" V 4450 4750 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 4750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4450 4750 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 4450 4750 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 4450 4750 50  0001 C CNN "Digikey"
-	1    4450 4750
-	0    1    1    0   
+P 4350 4850
+F 0 "R18" V 4450 4850 40  0000 C CNN
+F 1 "100K" V 4350 4850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 4850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4350 4850 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 4350 4850 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 4350 4850 50  0001 C CNN "Digikey"
+	1    4350 4850
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 5EFA934E
-P 2700 4750
-F 0 "R6" V 2800 4750 40  0000 C CNN
-F 1 "100K" V 2700 4750 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 4750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2700 4750 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 2700 4750 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 2700 4750 50  0001 C CNN "Digikey"
-	1    2700 4750
-	0    1    1    0   
+P 2800 4850
+F 0 "R6" V 2900 4850 40  0000 C CNN
+F 1 "100K" V 2800 4850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 4850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2800 4850 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 2800 4850 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 2800 4850 50  0001 C CNN "Digikey"
+	1    2800 4850
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5EFA98AD
-P 2700 5500
-F 0 "R8" V 2800 5500 40  0000 C CNN
-F 1 "100K" V 2700 5500 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 5500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2700 5500 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 2700 5500 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 2700 5500 50  0001 C CNN "Digikey"
-	1    2700 5500
-	0    1    1    0   
+P 2800 5600
+F 0 "R8" V 2900 5600 40  0000 C CNN
+F 1 "100K" V 2800 5600 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 5600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2800 5600 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 2800 5600 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 2800 5600 50  0001 C CNN "Digikey"
+	1    2800 5600
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R38
 U 1 1 5EFA9D70
-P 6600 5500
-F 0 "R38" V 6700 5500 40  0000 C CNN
-F 1 "100K" V 6600 5500 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 5500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6600 5500 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6600 5500 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6600 5500 50  0001 C CNN "Digikey"
-	1    6600 5500
-	0    1    1    0   
+P 6050 5650
+F 0 "R38" V 6150 5650 40  0000 C CNN
+F 1 "100K" V 6050 5650 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6050 5650 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 6050 5650 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 6050 5650 50  0001 C CNN "Digikey"
+	1    6050 5650
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R36
 U 1 1 5EFAB037
-P 6600 4750
-F 0 "R36" V 6700 4750 40  0000 C CNN
-F 1 "100K" V 6600 4750 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 4750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6600 4750 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6600 4750 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6600 4750 50  0001 C CNN "Digikey"
-	1    6600 4750
-	0    1    1    0   
+P 6050 4900
+F 0 "R36" V 6150 4900 40  0000 C CNN
+F 1 "100K" V 6050 4900 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 4900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6050 4900 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 6050 4900 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 6050 4900 50  0001 C CNN "Digikey"
+	1    6050 4900
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R34
 U 1 1 5EFAB555
-P 6150 3900
-F 0 "R34" V 6250 3900 40  0000 C CNN
-F 1 "100K" V 6150 3900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6150 3900 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6150 3900 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6150 3900 50  0001 C CNN "Digikey"
-	1    6150 3900
+P 7200 3950
+F 0 "R34" V 7300 3950 40  0000 C CNN
+F 1 "100K" V 7200 3950 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 3950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7200 3950 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 7200 3950 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 7200 3950 50  0001 C CNN "Digikey"
+	1    7200 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R32
 U 1 1 5EFAB9FC
-P 6150 3150
-F 0 "R32" V 6250 3150 40  0000 C CNN
-F 1 "100K" V 6150 3150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6150 3150 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6150 3150 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6150 3150 50  0001 C CNN "Digikey"
-	1    6150 3150
+P 7200 3200
+F 0 "R32" V 7300 3200 40  0000 C CNN
+F 1 "100K" V 7200 3200 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 3200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7200 3200 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 7200 3200 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 7200 3200 50  0001 C CNN "Digikey"
+	1    7200 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R20
 U 1 1 5EFABFDB
-P 4450 5500
-F 0 "R20" V 4550 5500 40  0000 C CNN
-F 1 "100K" V 4450 5500 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 5500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4450 5500 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 4450 5500 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 4450 5500 50  0001 C CNN "Digikey"
-	1    4450 5500
-	0    1    1    0   
+P 4350 5600
+F 0 "R20" V 4450 5600 40  0000 C CNN
+F 1 "100K" V 4350 5600 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 5600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4350 5600 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 4350 5600 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 4350 5600 50  0001 C CNN "Digikey"
+	1    4350 5600
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R22
 U 1 1 5EFAD00B
-P 4450 6250
-F 0 "R22" V 4550 6250 40  0000 C CNN
-F 1 "100K" V 4450 6250 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 6250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4450 6250 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 4450 6250 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 4450 6250 50  0001 C CNN "Digikey"
-	1    4450 6250
-	0    1    1    0   
+P 4350 6350
+F 0 "R22" V 4450 6350 40  0000 C CNN
+F 1 "100K" V 4350 6350 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 6350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4350 6350 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 4350 6350 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 4350 6350 50  0001 C CNN "Digikey"
+	1    4350 6350
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R24
 U 1 1 5EFAD3E6
-P 4450 7000
-F 0 "R24" V 4550 7000 40  0000 C CNN
-F 1 "100K" V 4450 7000 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 7000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4450 7000 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 4450 7000 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 4450 7000 50  0001 C CNN "Digikey"
-	1    4450 7000
-	0    1    1    0   
+P 4350 7100
+F 0 "R24" V 4450 7100 40  0000 C CNN
+F 1 "100K" V 4350 7100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 7100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 4350 7100 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 4350 7100 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 4350 7100 50  0001 C CNN "Digikey"
+	1    4350 7100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 5EFAD7CF
-P 2700 7000
-F 0 "R12" V 2800 7000 40  0000 C CNN
-F 1 "100K" V 2700 7000 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 7000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2700 7000 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 2700 7000 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 2700 7000 50  0001 C CNN "Digikey"
-	1    2700 7000
-	0    1    1    0   
+P 2800 7100
+F 0 "R12" V 2900 7100 40  0000 C CNN
+F 1 "100K" V 2800 7100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 7100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2800 7100 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 2800 7100 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 2800 7100 50  0001 C CNN "Digikey"
+	1    2800 7100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 5EFADB1E
-P 2700 6250
-F 0 "R10" V 2800 6250 40  0000 C CNN
-F 1 "100K" V 2700 6250 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 6250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2700 6250 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 2700 6250 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 2700 6250 50  0001 C CNN "Digikey"
-	1    2700 6250
-	0    1    1    0   
+P 2800 6350
+F 0 "R10" V 2900 6350 40  0000 C CNN
+F 1 "100K" V 2800 6350 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 6350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2800 6350 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 2800 6350 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 2800 6350 50  0001 C CNN "Digikey"
+	1    2800 6350
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R40
 U 1 1 5EFADFB9
-P 6600 6250
-F 0 "R40" V 6700 6250 40  0000 C CNN
-F 1 "100K" V 6600 6250 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 6250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6600 6250 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6600 6250 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6600 6250 50  0001 C CNN "Digikey"
-	1    6600 6250
-	0    1    1    0   
+P 6050 6400
+F 0 "R40" V 6150 6400 40  0000 C CNN
+F 1 "100K" V 6050 6400 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 6400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6050 6400 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 6050 6400 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 6050 6400 50  0001 C CNN "Digikey"
+	1    6050 6400
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R30
 U 1 1 5EFAE8A1
-P 6150 2400
-F 0 "R30" V 6250 2400 40  0000 C CNN
-F 1 "100K" V 6150 2400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 2400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6150 2400 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6150 2400 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6150 2400 50  0001 C CNN "Digikey"
-	1    6150 2400
+P 7200 2450
+F 0 "R30" V 7300 2450 40  0000 C CNN
+F 1 "100K" V 7200 2450 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7200 2450 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 7200 2450 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 7200 2450 50  0001 C CNN "Digikey"
+	1    7200 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R28
 U 1 1 5EFAEE60
-P 6150 1650
-F 0 "R28" V 6250 1650 40  0000 C CNN
-F 1 "100K" V 6150 1650 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 1650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6150 1650 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6150 1650 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6150 1650 50  0001 C CNN "Digikey"
-	1    6150 1650
+P 7200 1700
+F 0 "R28" V 7300 1700 40  0000 C CNN
+F 1 "100K" V 7200 1700 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 1700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7200 1700 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 7200 1700 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 7200 1700 50  0001 C CNN "Digikey"
+	1    7200 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R26
 U 1 1 5EFAF3C9
-P 6150 900
-F 0 "R26" V 6250 900 40  0000 C CNN
-F 1 "100K" V 6150 900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6150 900 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 6150 900 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 6150 900 50  0001 C CNN "Digikey"
-	1    6150 900 
+P 7200 950
+F 0 "R26" V 7300 950 40  0000 C CNN
+F 1 "100K" V 7200 950 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7200 950 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 7200 950 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 7200 950 50  0001 C CNN "Digikey"
+	1    7200 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R42
 U 1 1 5EFAFA4F
-P 7800 900
-F 0 "R42" V 7900 900 40  0000 C CNN
-F 1 "100K" V 7800 900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7800 900 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 7800 900 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 7800 900 50  0001 C CNN "Digikey"
-	1    7800 900 
+P 8850 950
+F 0 "R42" V 8950 950 40  0000 C CNN
+F 1 "100K" V 8850 950 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 8850 950 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 8850 950 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 8850 950 50  0001 C CNN "Digikey"
+	1    8850 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R44
 U 1 1 5EFB022E
-P 7800 1650
-F 0 "R44" V 7900 1650 40  0000 C CNN
-F 1 "100K" V 7800 1650 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 1650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7800 1650 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 7800 1650 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 7800 1650 50  0001 C CNN "Digikey"
-	1    7800 1650
+P 8850 1700
+F 0 "R44" V 8950 1700 40  0000 C CNN
+F 1 "100K" V 8850 1700 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 1700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 8850 1700 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 8850 1700 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 8850 1700 50  0001 C CNN "Digikey"
+	1    8850 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R46
 U 1 1 5EFB0C5C
-P 7800 2400
-F 0 "R46" V 7900 2400 40  0000 C CNN
-F 1 "100K" V 7800 2400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 2400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7800 2400 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 7800 2400 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 7800 2400 50  0001 C CNN "Digikey"
-	1    7800 2400
+P 8850 2450
+F 0 "R46" V 8950 2450 40  0000 C CNN
+F 1 "100K" V 8850 2450 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 8850 2450 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 8850 2450 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 8850 2450 50  0001 C CNN "Digikey"
+	1    8850 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R48
 U 1 1 5EFB12F8
-P 7800 3150
-F 0 "R48" V 7900 3150 40  0000 C CNN
-F 1 "100K" V 7800 3150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 3150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7800 3150 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 7800 3150 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 7800 3150 50  0001 C CNN "Digikey"
-	1    7800 3150
+P 8850 3200
+F 0 "R48" V 8950 3200 40  0000 C CNN
+F 1 "100K" V 8850 3200 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 3200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 8850 3200 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 8850 3200 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 8850 3200 50  0001 C CNN "Digikey"
+	1    8850 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R50
 U 1 1 5EFB18C2
-P 7800 3900
-F 0 "R50" V 7900 3900 40  0000 C CNN
-F 1 "100K" V 7800 3900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 3900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 7800 3900 50  0001 C CNN
-F 4 "MFR-25FBF52-100K" V 7800 3900 50  0001 C CNN "Mfg"
-F 5 "100KXBK-ND" V 7800 3900 50  0001 C CNN "Digikey"
-	1    7800 3900
+P 8850 3950
+F 0 "R50" V 8950 3950 40  0000 C CNN
+F 1 "100K" V 8850 3950 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 3950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 8850 3950 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 8850 3950 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 8850 3950 50  0001 C CNN "Digikey"
+	1    8850 3950
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 1900 5600 1900
+Wire Wire Line
+	5400 2000 5600 2000
+Wire Wire Line
+	5400 2100 5600 2100
+Wire Wire Line
+	5400 2200 5600 2200
+Wire Wire Line
+	5400 2300 5600 2300
+Wire Wire Line
+	5400 2400 5600 2400
+Wire Wire Line
+	5400 2500 5600 2500
+Wire Wire Line
+	5400 2600 5600 2600
+Wire Wire Line
+	5400 2700 5600 2700
+Wire Wire Line
+	5400 2800 5600 2800
+Wire Wire Line
+	5400 2900 5600 2900
+Wire Wire Line
+	5400 3000 5600 3000
+Wire Wire Line
+	5400 3500 5600 3500
+Wire Wire Line
+	5400 3600 5600 3600
+Wire Wire Line
+	6100 3100 6300 3100
+Wire Wire Line
+	6100 3000 6300 3000
+Wire Wire Line
+	6100 3500 6150 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5F0A652E
+P 5500 3400
+AR Path="/5F0A652E" Ref="#PWR?"  Part="1" 
+AR Path="/5EF2B07F/5F0A652E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 3150 50  0001 C CNN
+F 1 "GND" V 5505 3227 50  0000 C CNN
+F 2 "" H 5500 3400 50  0001 C CNN
+F 3 "" H 5500 3400 50  0001 C CNN
+	1    5500 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0A6BF6
+P 5500 3300
+AR Path="/5F0A6BF6" Ref="#PWR?"  Part="1" 
+AR Path="/5EF2B07F/5F0A6BF6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 3050 50  0001 C CNN
+F 1 "GND" V 5505 3127 50  0000 C CNN
+F 2 "" H 5500 3300 50  0001 C CNN
+F 3 "" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3100 5500 3100
+Wire Wire Line
+	5600 3200 5500 3200
+Wire Wire Line
+	5600 3300 5500 3300
+Wire Wire Line
+	5600 3400 5500 3400
+$Comp
+L Device:R R2
+U 1 1 5EFC270A
+P 2800 3350
+F 0 "R2" V 2900 3350 40  0000 C CNN
+F 1 "100K" V 2800 3350 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 3350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 2800 3350 50  0001 C CNN
+F 4 "MFR-25FBF52-100K" V 2800 3350 50  0001 C CNN "Mfg"
+F 5 "100KXBK-ND" V 2800 3350 50  0001 C CNN "Digikey"
+	1    2800 3350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EF9AD63
+P 2800 3250
+F 0 "R1" V 2700 3250 40  0000 C CNN
+F 1 "1K" V 2800 3250 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_CFR_1.pdf" H 2800 3250 50  0001 C CNN
+F 4 "CFR-25JB-52-1K" V 2800 3250 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 2800 3250 50  0001 C CNN "Digikey"
+	1    2800 3250
+	0    -1   1    0   
+$EndComp
+Text Label 1850 3150 0    50   ~ 0
+FP
+Text Label 3300 3250 2    50   ~ 0
+PB0
+Wire Wire Line
+	3300 3250 2950 3250
+Wire Wire Line
+	2250 3150 1850 3150
+Wire Wire Line
+	2250 3550 2250 3600
+Wire Wire Line
+	3000 3350 3000 3400
+Wire Wire Line
+	2950 3350 3000 3350
+Connection ~ 2600 3350
+Wire Wire Line
+	2600 3350 2650 3350
+Wire Wire Line
+	2600 3350 2550 3350
+Wire Wire Line
+	2600 3250 2600 3350
+Wire Wire Line
+	2650 3250 2600 3250
+$Comp
+L power:GND #PWR020
+U 1 1 5F1BF7CB
+P 2250 3600
+F 0 "#PWR020" H 2250 3350 50  0001 C CNN
+F 1 "GND" H 2255 3427 50  0000 C CNN
+F 2 "" H 2250 3600 50  0001 C CNN
+F 3 "" H 2250 3600 50  0001 C CNN
+	1    2250 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5F1BF7B9
+P 3000 3400
+F 0 "#PWR011" H 3000 3150 50  0001 C CNN
+F 1 "GND" H 3005 3227 50  0000 C CNN
+F 2 "" H 3000 3400 50  0001 C CNN
+F 3 "" H 3000 3400 50  0001 C CNN
+	1    3000 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q1
+U 1 1 5F1BF7B3
+P 2350 3350
+F 0 "Q1" H 2538 3403 60  0000 L CNN
+F 1 "ZTX450" H 2538 3297 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 2550 3550 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 3650 60  0001 L CNN
+F 4 "ZTX450-ND" H 2550 3750 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZTX450" H 2550 3850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2550 3950 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2550 4050 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ZTX450.pdf" H 2550 4150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/ZTX450/ZTX450-ND/92530" H 2550 4250 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 1A E-LINE" H 2550 4350 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2550 4450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2550 4550 60  0001 L CNN "Status"
+	1    2350 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:DB15_Female J3
+U 1 1 5F05B2E7
+P 950 4450
+F 0 "J3" H 1104 4496 50  0000 L CNN
+F 1 "DB15_Female" V 1250 4300 50  0000 L CNN
+F 2 "digikey-footprints:DB15FC" H 950 4450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747845&DocType=Customer+Drawing&DocLang=English" H 950 4450 50  0001 C CNN
+F 4 "5747845-6" H 950 4450 50  0001 C CNN "Mfg"
+F 5 "A32123-ND" H 950 4450 50  0001 C CNN "Digikey"
+	1    950  4450
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
