@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/angel/Documents/Digikey/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name BPEM488THD)(type KiCad)(uri "C:/Users/angel/Documents/KiCad Projects/BPEM488THD")(options "")(descr ""))
+  (lib (name myfootprints)(type KiCad)(uri "C:/Users/angel/Documents/KiCad Projects/Idle Air Stepper Controller/myfootprints.pretty")(options "")(descr ""))
+  (lib (name rescue-backup)(type KiCad)(uri "C:/Users/angel/Documents/KiCad Projects/V10 Ign-Inj Drivers V2/rescue-backup")(options "")(descr ""))
+)
