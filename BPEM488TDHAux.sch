@@ -33,32 +33,6 @@ F 12 "Active" H 10100 4500 60  0001 L CNN "Status"
 	1    9900 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Linear:LM7805_TO220 U1
-U 1 1 5EF6FC11
-P 3200 1100
-F 0 "U1" H 3350 850 50  0000 C CNN
-F 1 "LD1085V50" H 3200 1250 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3200 1325 50  0001 C CIN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/d3/84/d5/f6/3c/23/40/7b/CD00001883.pdf/files/CD00001883.pdf/jcr:content/translations/en.CD00001883.pdf" H 3200 1050 50  0001 C CNN
-F 4 "LD1085V50" H 3200 1100 50  0001 C CNN "Mfg"
-F 5 "497-3436-5-ND" H 3200 1100 50  0001 C CNN "Digikey"
-	1    3200 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LM7808_TO220 U2
-U 1 1 5EF72F4E
-P 3200 2200
-F 0 "U2" H 3350 1950 50  0000 C CNN
-F 1 "L7808ABV" H 3200 2351 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3200 2425 50  0001 C CIN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3200 2150 50  0001 C CNN
-F 4 "L7808ABV" H 3200 2200 50  0001 C CNN "Mfg"
-F 5 "497-1446-5-ND" H 3200 2200 50  0001 C CNN "Digikey"
-	1    3200 2200
-	1    0    0    -1  
-$EndComp
 Text Label 5250 1050 2    50   ~ 0
 PP5
 Text Label 5250 1150 2    50   ~ 0
@@ -218,19 +192,6 @@ F 3 "https://sh.kemet.com/Lists/ProductCatalog/Attachments/598/KEM_C1050_GOLDMAX
 F 4 "C320C104K5R5TA" H 4100 1300 50  0001 C CNN "Mfg"
 F 5 "399-4264-ND" H 4100 1300 50  0001 C CNN "Digikey"
 	1    4100 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C2
-U 1 1 5EFC200B
-P 2800 1300
-F 0 "C2" H 2850 1400 40  0000 L CNN
-F 1 "33uF" H 2850 1200 40  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm" H 2800 1300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_T2043_T35X.pdf" H 2800 1300 50  0001 C CNN
-F 4 "T350J336K025AT" H 2800 1300 50  0001 C CNN "Mfg"
-F 5 "399-3591-ND" H 2800 1300 50  0001 C CNN "Digikey"
-	1    2800 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -470,33 +431,33 @@ Wire Wire Line
 Wire Wire Line
 	5750 2350 5950 2350
 Wire Wire Line
-	1450 1350 1500 1350
+	1200 1350 1250 1350
 Wire Wire Line
-	1500 1200 1500 1350
+	1250 1200 1250 1350
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F06DCE5
-P 1450 1350
+P 1200 1350
 AR Path="/5F06DCE5" Ref="#FLG01"  Part="1" 
 AR Path="/5EF2B07F/5F06DCE5" Ref="#FLG?"  Part="1" 
-F 0 "#FLG01" H 1450 1425 50  0001 C CNN
-F 1 "PWR_FLAG" V 1450 1700 50  0000 C CNN
-F 2 "" H 1450 1350 50  0001 C CNN
-F 3 "~" H 1450 1350 50  0001 C CNN
-	1    1450 1350
+F 0 "#FLG01" H 1200 1425 50  0001 C CNN
+F 1 "PWR_FLAG" V 1200 1700 50  0000 C CNN
+F 2 "" H 1200 1350 50  0001 C CNN
+F 3 "~" H 1200 1350 50  0001 C CNN
+	1    1200 1350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5F0637A3
-P 1300 1100
-F 0 "J1" H 1300 1350 50  0000 C CNN
-F 1 "Conn_01x02" H 1250 1250 50  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal" H 1300 1100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/026013114_sd.pdf" H 1300 1100 50  0001 C CNN
-F 4 "Molex 0026013114 " H 1250 1250 50  0000 C CNN "Mfg"
-F 5 "WM14505-ND " H 1300 1100 50  0001 C CNN "Digikey"
-	1    1300 1100
+P 900 1100
+F 0 "J1" H 900 1350 50  0000 C CNN
+F 1 "Molex 0026013114 " H 850 1250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal" H 900 1100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/026013114_sd.pdf" H 900 1100 50  0001 C CNN
+F 4 "Molex 0026013114 " H 850 1250 50  0000 C CNN "Mfg"
+F 5 "WM14505-ND " H 900 1100 50  0001 C CNN "Digikey"
+	1    900  1100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2115,9 +2076,9 @@ Wire Wire Line
 	1250 5450 1600 5450
 Wire Wire Line
 	1250 5550 1600 5550
-Text Notes 1000 1250 0    50   ~ 0
+Text Notes 600  1250 0    50   ~ 0
 Bat -\n
-Text Notes 1000 1100 0    50   ~ 0
+Text Notes 600  1100 0    50   ~ 0
 Bat +
 $Comp
 L Connector_Generic:Conn_02x18_Odd_Even J2
@@ -2345,7 +2306,7 @@ U 1 1 5FA5D15D
 P 10100 1900
 F 0 "J4" H 10254 1946 50  0000 L CNN
 F 1 "DB15_Female" V 10400 1750 50  0000 L CNN
-F 2 "digikey-footprints:DB15FC" H 10100 1900 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 10100 1900 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747845&DocType=Customer+Drawing&DocLang=English" H 10100 1900 50  0001 C CNN
 F 4 "5747845-6" H 10100 1900 50  0001 C CNN "Mfg"
 F 5 "A32123-ND" H 10100 1900 50  0001 C CNN "Digikey"
@@ -2365,15 +2326,10 @@ F 5 "4602-RC-ND" H 3850 1100 50  0001 C CNN "Digikey"
 	1    3850 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 1650 1850
-Wire Wire Line
-	1650 1100 1500 1100
 Connection ~ 1650 1100
 Wire Wire Line
-	1500 1350 1500 1850
-Connection ~ 1500 1350
-Wire Wire Line
-	1500 1850 1650 1850
+	1250 1350 1250 1850
+Connection ~ 1250 1350
 $Comp
 L Device:D D6
 U 1 1 5FB87DED
@@ -2413,26 +2369,6 @@ F 5 "1N4001DICT-ND" H 2250 1100 50  0001 C CNN "Digikey"
 	1    2250 1100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3200 2550 3600 2550
-Wire Wire Line
-	3200 1450 3600 1450
-$Comp
-L Device:CP1 C4
-U 1 1 5EF90D0A
-P 3600 1300
-F 0 "C4" H 3650 1400 40  0000 L CNN
-F 1 "33uF" H 3650 1200 40  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm" H 3600 1300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_T2043_T35X.pdf" H 3600 1300 50  0001 C CNN
-F 4 "T350J336K025AT" H 3600 1300 50  0001 C CNN "Mfg"
-F 5 "399-3591-ND" H 3600 1300 50  0001 C CNN "Digikey"
-	1    3600 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 3600 1450
-Wire Wire Line
-	3600 1450 4100 1450
 $Comp
 L Device:CP1 C3
 U 1 1 5EF9171F
@@ -2446,22 +2382,6 @@ F 5 "399-3591-ND" H 2800 2400 50  0001 C CNN "Digikey"
 	1    2800 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP1 C5
-U 1 1 5EF92057
-P 3600 2400
-F 0 "C5" H 3650 2500 40  0000 L CNN
-F 1 "33uF" H 3650 2300 40  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm" H 3600 2400 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_T2043_T35X.pdf" H 3600 2400 50  0001 C CNN
-F 4 "T350J336K025AT" H 3600 2400 50  0001 C CNN "Mfg"
-F 5 "399-3591-ND" H 3600 2400 50  0001 C CNN "Digikey"
-	1    3600 2400
-	1    0    0    -1  
-$EndComp
-Connection ~ 3600 2550
-Wire Wire Line
-	3600 2550 4100 2550
 $Comp
 L Device:C C7
 U 1 1 5EF93CB8
@@ -3270,7 +3190,7 @@ U 1 1 5F05B2E7
 P 950 5450
 F 0 "J3" H 1104 5496 50  0000 L CNN
 F 1 "DB15_Female" V 1250 5300 50  0000 L CNN
-F 2 "digikey-footprints:DB15FC" H 950 5450 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 950 5450 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747845&DocType=Customer+Drawing&DocLang=English" H 950 5450 50  0001 C CNN
 F 4 "5747845-6" H 950 5450 50  0001 C CNN "Mfg"
 F 5 "A32123-ND" H 950 5450 50  0001 C CNN "Digikey"
@@ -3313,17 +3233,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 700  2650 800 
 Connection ~ 2650 800 
-$Comp
-L power:+12V #PWR0104
-U 1 1 5F0B0EF5
-P 9550 2600
-F 0 "#PWR0104" H 9550 2450 50  0001 C CNN
-F 1 "+12V" V 9565 2728 50  0000 L CNN
-F 2 "" H 9550 2600 50  0001 C CNN
-F 3 "" H 9550 2600 50  0001 C CNN
-	1    9550 2600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5050 2350 5250 2350
 Wire Wire Line
@@ -3368,4 +3277,122 @@ Wire Wire Line
 	9550 2600 9800 2600
 Text Notes 9350 5800 0    50   ~ 0
 PT3 = Ign1 = 1&6\nPT4 = Ign2 = 10&5\nPT5 = Ign3 = 9&8\nPT6 = Ign4 = 4&7\nPT7 = Ign5 = 3&2\nPP0 = Inj1 = 1&10\nPP1 = Inj2 = 9&4\nPP2 = Inj3 = 3&6\nPP3 = Inj4 = 5&8\nPP4 = Inj3 = 7&2
+$Comp
+L Device:Varistor RV1
+U 1 1 5F0D17AB
+P 1400 1450
+F 0 "RV1" V 1300 1200 40  0000 L CNN
+F 1 "B72214S1140K501" V 1500 1150 40  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W3.9mm_P7.5mm" V 1330 1450 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/70/db/var/SIOV_Leaded_Automotive.pdf" H 1400 1450 50  0001 C CNN
+F 4 "B72214S1140K501" V 1400 1450 50  0001 C CNN "Mfg"
+F 5 "495-2057-ND" V 1400 1450 50  0001 C CNN "Digikey"
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1850 1400 1850
+Connection ~ 1650 1850
+Wire Wire Line
+	1100 1100 1400 1100
+Wire Wire Line
+	1250 1200 1100 1200
+Wire Wire Line
+	1400 1600 1400 1850
+Connection ~ 1400 1850
+Wire Wire Line
+	1400 1850 1650 1850
+Wire Wire Line
+	1400 1300 1400 1100
+Connection ~ 1400 1100
+Wire Wire Line
+	1400 1100 1650 1100
+$Comp
+L power:+BATT #PWR0104
+U 1 1 5F0E4421
+P 9550 2600
+F 0 "#PWR0104" H 9550 2450 50  0001 C CNN
+F 1 "+BATT" V 9550 2850 50  0000 C CNN
+F 2 "" H 9550 2600 50  0001 C CNN
+F 3 "" H 9550 2600 50  0001 C CNN
+	1    9550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BPEM488TDHAux-rescue:LD1085-BPEM488TDHAux-cache U1
+U 1 1 5F237F4C
+P 3200 1100
+F 0 "U1" H 3100 1250 50  0000 C CNN
+F 1 "LD1085" H 3350 1250 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown" H 3200 1325 50  0001 C CIN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/d3/84/d5/f6/3c/23/40/7b/CD00001883.pdf/files/CD00001883.pdf/jcr:content/translations/en.CD00001883.pdf" H 3200 1050 50  0001 C CNN
+F 4 "LD1085V50" H 3200 1100 50  0001 C CNN "Mfg"
+F 5 "497-3436-5-ND" H 3200 1100 50  0001 C CNN "Digikey"
+	1    3200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BPEM488TDHAux-rescue:LD7808-BPEM488TDHAux-cache U2
+U 1 1 5F2C215D
+P 3200 2200
+F 0 "U2" H 3100 2350 50  0000 C CNN
+F 1 "LD7808" H 3350 2350 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown" H 3200 2425 50  0001 C CIN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3200 2150 50  0001 C CNN
+F 4 "L7808ABV" H 3200 2200 50  0001 C CNN "mfg"
+F 5 "497-1446-5-ND" H 3200 2200 50  0001 C CNN "Digike"
+	1    3200 2200
+	1    0    0    -1  
+$EndComp
+Text Notes 3400 1600 0    50   ~ 0
+Insulate tab on U1!!!
+$Comp
+L Device:C C2
+U 1 1 5F1AF9BD
+P 2800 1300
+F 0 "C2" H 2850 1400 40  0000 L CNN
+F 1 "10uF" H 2850 1200 40  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2838 1150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 2800 1300 50  0001 C CNN
+F 4 "C324C106K3R5TA" H 2800 1300 50  0001 C CNN "Mfg"
+F 5 "399-13950-ND" H 2800 1300 50  0001 C CNN "Digikey"
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1450 3600 1450
+$Comp
+L Device:C C4
+U 1 1 5F1DF6E0
+P 3600 1300
+F 0 "C4" H 3650 1400 40  0000 L CNN
+F 1 "10uF" H 3650 1200 40  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3638 1150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3600 1300 50  0001 C CNN
+F 4 "C324C106K3R5TA" H 3600 1300 50  0001 C CNN "Mfg"
+F 5 "399-13950-ND" H 3600 1300 50  0001 C CNN "Digikey"
+	1    3600 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 1450
+Wire Wire Line
+	3600 1450 4100 1450
+Wire Wire Line
+	3200 2550 3600 2550
+$Comp
+L Device:C C5
+U 1 1 5F1E107E
+P 3600 2400
+F 0 "C5" H 3650 2500 40  0000 L CNN
+F 1 "0.1uF" H 3650 2300 40  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3638 2250 50  0001 C CNN
+F 3 "https://sh.kemet.com/Lists/ProductCatalog/Attachments/598/KEM_C1050_GOLDMAX_X7R.pdf" H 3600 2400 50  0001 C CNN
+F 4 "C320C104K5R5TA" H 3600 2400 50  0001 C CNN "Mfg"
+F 5 "399-4264-ND" H 3600 2400 50  0001 C CNN "Digikey"
+	1    3600 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 2550
+Wire Wire Line
+	3600 2550 4100 2550
 $EndSCHEMATC
